@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="city_delivery_world">
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Static city-style obstacles: buildings/walls/parked objects. -->
+    <model name="building_left">
+      <static>true</static>
+      <pose>2.0 1.8 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>1.0 2.0 1.0</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>1.0 2.0 1.0</size></box></geometry><material><ambient>0.35 0.35 0.35 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <model name="building_right">
+      <static>true</static>
+      <pose>4.0 -0.6 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>1.0 2.0 1.0</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>1.0 2.0 1.0</size></box></geometry><material><ambient>0.35 0.35 0.35 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <model name="road_barrier_1">
+      <static>true</static>
+      <pose>1.2 -1.2 0.15 0 0 0.4</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>1.2 0.15 0.3</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>1.2 0.15 0.3</size></box></geometry><material><ambient>0.9 0.55 0.1 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <model name="parked_car_box">
+      <static>true</static>
+      <pose>5.2 2.2 0.25 0 0 0</pose>
+      <link name="link">
+        <collision name="collision"><geometry><box><size>1.0 0.55 0.5</size></box></geometry></collision>
+        <visual name="visual"><geometry><box><size>1.0 0.55 0.5</size></box></geometry><material><ambient>0.0 0.3 0.8 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <model name="delivery_goal_marker">
+      <static>true</static>
+      <pose>6.0 4.0 0.03 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><cylinder><radius>0.35</radius><length>0.06</length></cylinder></geometry>
+          <material><ambient>0.0 1.0 0.0 0.8</ambient><diffuse>0.0 1.0 0.0 0.8</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Dynamic obstacle controlled by scripts/mobile_obstacle_controller.py. -->
+    <model name="moving_pedestrian">
+      <static>false</static>
+      <pose>2.0 -1.0 0.50 0 0 0</pose>
+      <link name="body">
+        <inertial>
+          <mass>1.0</mass>
+          <inertia><ixx>0.05</ixx><iyy>0.05</iyy><izz>0.05</izz><ixy>0</ixy><ixz>0</ixz><iyz>0</iyz></inertia>
+        </inertial>
+        <collision name="collision"><geometry><cylinder><radius>0.18</radius><length>1.0</length></cylinder></geometry></collision>
+        <visual name="visual"><geometry><cylinder><radius>0.18</radius><length>1.0</length></cylinder></geometry><material><ambient>1.0 0.1 0.1 1</ambient></material></visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>
