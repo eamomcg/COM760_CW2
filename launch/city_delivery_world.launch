@@ -8,7 +8,7 @@
   <param name="use_sim_time" value="$(arg use_sim_time)" />
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find com760cw2_groupid)/worlds/city_delivery.world" />
+    <arg name="world_name" value="$(find com760cw2_group34)/worlds/city_delivery.world" />
     <arg name="paused" value="$(arg paused)" />
     <arg name="use_sim_time" value="$(arg use_sim_time)" />
     <arg name="gui" value="$(arg gui)" />
@@ -16,7 +16,7 @@
     <arg name="debug" value="$(arg debug)" />
   </include>
 
-  <param name="robot_description" textfile="$(find com760cw2_groupid)/urdf/groupidBot.urdf" />
+  <param name="robot_description" textfile="$(find com760cw2_group34)/urdf/groupidBot.urdf" />
 
   <node name="spawn_groupid_bot"
         pkg="gazebo_ros"

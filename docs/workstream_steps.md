@@ -28,8 +28,8 @@
 ## Shared integration
 
 1. Build the custom message and service with `catkin_make`.
-2. Test `rosmsg show com760cw2_groupid/QLearningStatus`.
-3. Test `rossrv show com760cw2_groupid/SetDeliveryGoal`.
+2. Test `rosmsg show com760cw2_group34/QLearningStatus`.
+3. Test `rossrv show com760cw2_group34/SetDeliveryGoal`.
 4. Run `train_q_learning.launch`.
 5. Fix topic mismatches first; tune learning only after topics are correct.
 6. Record baseline random policy.

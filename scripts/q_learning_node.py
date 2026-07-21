@@ -33,15 +33,15 @@ from reward_manager import RewardManager
 from state_encoder import StateEncoder
 from training_logger import TrainingLogger
 
-from com760cw2_groupid.msg import QLearningStatus
-from com760cw2_groupid.srv import SetDeliveryGoal, SetDeliveryGoalResponse
+from com760cw2_group34.msg import QLearningStatus
+from com760cw2_group34.srv import SetDeliveryGoal, SetDeliveryGoalResponse
 
 
 class QLearningNode:
     def __init__(self):
         rospy.init_node("q_learning_delivery_node")
 
-        self.package_name = rospy.get_param("~package_name", "com760cw2_groupid")
+        self.package_name = rospy.get_param("~package_name", "com760cw2_group34")
 
         self.cmd_vel_topic = self.param("cmd_vel_topic", "/groupidBot/cmd_vel")
         self.scan_topic = self.param("scan_topic", "/groupidBot/laser/scan")
@@ -69,7 +69,7 @@ class QLearningNode:
         if self.mode == "demo":
             self.epsilon = 0.0
 
-        self.results_dir = os.path.expanduser(self.param("results_dir", "~/catkin_ws/src/com760cw2_groupid/results"))
+        self.results_dir = os.path.expanduser(self.param("results_dir", "~/catkin_ws/src/com760cw2_group34/results"))
         self.q_table_path = os.path.expanduser(self.param("q_table_path", os.path.join(self.results_dir, "q_table.json")))
         os.makedirs(self.results_dir, exist_ok=True)
 
