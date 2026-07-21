@@ -16,12 +16,14 @@
     <arg name="debug" value="$(arg debug)" />
   </include>
 
-  <param name="robot_description" textfile="$(find com760cw2_group34)/urdf/groupidBot.urdf" />
+  <param name="robot_description" command="$(find xacro)/xacro '$(find com760cw2_group34)/urdf/group34Bot.xacro'" />
+  // changed from using urdf to xacro for better modularity and maintainability as per CW2 brief
+
 
   <node name="spawn_groupid_bot"
         pkg="gazebo_ros"
         type="spawn_model"
-        args="-urdf -model groupidBot -param robot_description -x 0.0 -y 0.0 -z 0.08"
+        args="-urdf -model group34Bot -param robot_description -x 0.0 -y 0.0 -z 0.08"
         output="screen" />
 
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen" />

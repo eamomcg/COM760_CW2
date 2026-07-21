@@ -1,14 +1,14 @@
 # Shared configuration for Workstream A and B.
 
 # ROS topics required by the coursework brief.
-cmd_vel_topic: "/groupidBot/cmd_vel"
-scan_topic: "/groupidBot/laser/scan"
+cmd_vel_topic: "/group34Bot/cmd_vel"
+scan_topic: "/group34Bot/laser/scan"
 odom_topic: "/odom"
-status_topic: "/groupidBot/q_learning_status"
-reset_service: "/groupidBot/reset_episode"
+status_topic: "/group34Bot/q_learning_status"
+reset_service: "/group34Bot/reset_episode"
 
 # Start and delivery goal.
-robot_model_name: "groupidBot"
+robot_model_name: "group34Bot"
 start_x: 0.0
 start_y: 0.0
 start_z: 0.08
@@ -18,14 +18,14 @@ goal_y: 4.0
 goal_tolerance: 0.45
 
 # Q-learning parameters.
-max_episodes: 300
-max_steps_per_episode: 400
-control_rate_hz: 5.0
+max_episodes: 200
+max_steps_per_episode: 1000    
+control_rate_hz: 15.0         # Increased to 15.0. It will make decisions 3x faster.
 alpha: 0.30
 gamma: 0.90
 epsilon: 1.00
 epsilon_min: 0.05
-epsilon_decay: 0.995
+epsilon_decay: 0.99          # Lowered slightly from 0.995 so it trusts its Q-table faster.
 
 # State encoder thresholds.
 blocked_distance: 0.45
@@ -34,20 +34,20 @@ goal_close_distance: 0.60
 goal_medium_distance: 2.50
 
 # Action speeds.
-linear_speed: 0.20
+linear_speed: 0.30            # Consolidated here and set to 0.30 to help it cover ground faster.
 angular_speed: 0.65
 
 # Reward design.
-collision_distance: 0.24
-near_obstacle_distance: 0.45
-goal_reward: 100.0
+collision_distance: 0.24      # Increased from 0.15 so it triggers BEFORE the 0.22m laser blindspot.
+near_obstacle_distance: 0.35  # Set to give a tight, accurate 11cm warning zone before a collision.
+goal_reward: 1000.0           # Increased from 100.0 (Make the goal the ultimate jackpot).
 collision_penalty: -100.0
-step_penalty: -1.0
-progress_reward_scale: 10.0
+step_penalty: -0.1            # Reduced from -1.0 (Stop draining points so fast).
+progress_reward_scale: 200.0  # Increased from 10.0 (Make the breadcrumbs bigger).
 moved_away_penalty: -4.0
-near_obstacle_penalty: -8.0
+near_obstacle_penalty: -1.0   # Reduced from -8.0 so the robot is willing to squeeze through tight gaps.
 turn_penalty: -0.25
 
-# Output paths. Adjust these after renaming the package/group ID.
-results_dir: "~/catkin_ws/src/com760cw2_group34/results"
-q_table_path: "~/catkin_ws/src/com760cw2_group34/results/q_table.json"
+# File paths.
+results_dir: "/home/b00992264/com760_ws/src/com760cw2_group34/results"
+q_table_path: "/home/b00992264/com760_ws/src/com760cw2_group34/results/q_table.json"

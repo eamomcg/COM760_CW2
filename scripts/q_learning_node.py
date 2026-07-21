@@ -6,10 +6,10 @@ This node:
 - subscribes to LaserScan and Odometry
 - encodes the current state
 - selects an action using epsilon-greedy Q-learning
-- publishes Twist commands to /groupidBot/cmd_vel
+- publishes Twist commands to /group34Bot/cmd_vel
 - publishes a custom QLearningStatus message
 - exposes a custom SetDeliveryGoal service
-- calls /groupidBot/reset_episode between training episodes
+- calls /group34Bot/reset_episode between training episodes
 """
 
 import json
@@ -26,8 +26,12 @@ from sensor_msgs.msg import LaserScan
 from std_srvs.srv import Empty
 from tf.transformations import euler_from_quaternion
 
+# Force Python to prioritize the local script directory for imports
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+if SCRIPT_DIR not in sys.path:
+    sys.path.insert(0, SCRIPT_DIR)
+
 # Import local helper classes.
-# When installed as a catkin script, this script folder is on the Python path.
 from action_executor import ActionExecutor
 from reward_manager import RewardManager
 from state_encoder import StateEncoder
@@ -36,18 +40,17 @@ from training_logger import TrainingLogger
 from com760cw2_group34.msg import QLearningStatus
 from com760cw2_group34.srv import SetDeliveryGoal, SetDeliveryGoalResponse
 
-
 class QLearningNode:
     def __init__(self):
         rospy.init_node("q_learning_delivery_node")
 
         self.package_name = rospy.get_param("~package_name", "com760cw2_group34")
 
-        self.cmd_vel_topic = self.param("cmd_vel_topic", "/groupidBot/cmd_vel")
-        self.scan_topic = self.param("scan_topic", "/groupidBot/laser/scan")
+        self.cmd_vel_topic = self.param("cmd_vel_topic", "/group34Bot/cmd_vel")
+        self.scan_topic = self.param("scan_topic", "/group34Bot/laser/scan")
         self.odom_topic = self.param("odom_topic", "/odom")
-        self.status_topic = self.param("status_topic", "/groupidBot/q_learning_status")
-        self.reset_service_name = self.param("reset_service", "/groupidBot/reset_episode")
+        self.status_topic = self.param("status_topic", "/group34Bot/q_learning_status")
+        self.reset_service_name = self.param("reset_service", "/group34Bot/reset_episode")
 
         self.mode = self.param("mode", "train")  # train or demo
 
@@ -112,7 +115,7 @@ class QLearningNode:
         self.sub_scan = rospy.Subscriber(self.scan_topic, LaserScan, self.scan_callback)
         self.sub_odom = rospy.Subscriber(self.odom_topic, Odometry, self.odom_callback)
 
-        self.goal_service = rospy.Service("/groupidBot/set_delivery_goal", SetDeliveryGoal, self.handle_set_delivery_goal)
+        self.goal_service = rospy.Service("/group34Bot/set_delivery_goal", SetDeliveryGoal, self.handle_set_delivery_goal)
 
         rospy.loginfo("Q-learning node ready. mode=%s goal=(%.2f, %.2f)", self.mode, self.goal_x, self.goal_y)
 
@@ -233,6 +236,9 @@ class QLearningNode:
 
     def run_episode(self, episode):
         self.reset_episode()
+        # Wait a moment for the physics engine to stabilize after reset
+        rospy.sleep(0.5)
+        
         state_key, state_id, state_info = self.get_state()
         previous_distance = state_info["distance_to_goal"]
         total_reward = 0.0
@@ -240,6 +246,9 @@ class QLearningNode:
 
         goal_reached = False
         collision = False
+        
+        # Grace period: ignore collisions for the first few control loops
+        grace_steps = 5
 
         for step in range(1, self.max_steps_per_episode + 1):
             if rospy.is_shutdown():
@@ -255,6 +264,13 @@ class QLearningNode:
             reward, done, goal_reached, collision = self.reward_manager.compute(
                 previous_distance, next_state_info, action_id
             )
+
+            # --- GRACE PERIOD OVERRIDE ---
+            if step <= grace_steps:
+                collision = False
+                done = False
+            # -----------------------------
+
             total_reward += reward
 
             if self.mode == "train":

@@ -2,7 +2,7 @@
 
 ## Workstream A: Q-learning logic
 
-1. Check `q_learning_node.py` launches and receives `/groupidBot/laser/scan` and `/odom`.
+1. Check `q_learning_node.py` launches and receives `/group34Bot/laser/scan` and `/odom`.
 2. Check `state_encoder.py` prints sensible state keys when the robot faces obstacles.
 3. Check `action_executor.py` moves the robot for each action ID.
 4. Check `reward_manager.py` gives positive rewards for progress and terminal reward at the goal.
@@ -15,9 +15,9 @@
 ## Workstream B: Gazebo/CitySim world and robot setup
 
 1. Launch `world_only.launch` and confirm Gazebo opens.
-2. Confirm the robot spawns as `groupidBot`.
-3. Confirm `/groupidBot/cmd_vel` moves the robot.
-4. Confirm `/groupidBot/laser/scan` publishes laser data.
+2. Confirm the robot spawns as `group34Bot`.
+3. Confirm `/group34Bot/cmd_vel` moves the robot.
+4. Confirm `/group34Bot/laser/scan` publishes laser data.
 5. Confirm `/odom` publishes odometry.
 6. Confirm the static buildings/barriers are detected by the laser.
 7. Confirm `moving_pedestrian` exists in Gazebo.
