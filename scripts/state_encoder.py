@@ -6,6 +6,14 @@ Q-learning state.
 The Q-table should not use raw LaserScan arrays directly. This file reduces the
 scan to a few human-readable obstacle sectors and combines them with the goal
 angle/distance.
+
+FIX (see reward_manager.py for the matching fix): a LaserScan value that is
+NaN/Inf means "no return" -> nothing detected -> treat as clear (max_range).
+A value that is 0.0 or below the sensor's own range_min means the sensor is
+saturated at its floor -> the obstacle is at or inside the minimum measurable
+distance -> treat as VERY CLOSE (range_min), never as clear. The previous
+version collapsed both cases to max_range, which silently erased genuine
+near-collision readings.
 """
 
 import math
@@ -48,13 +56,23 @@ class StateEncoder:
         digest = hashlib.md5(state_key.encode("utf-8")).hexdigest()
         return int(digest[:8], 16) % 2147483647
 
-    def _valid_range(self, value, max_range):
+    def _valid_range(self, value, max_range, range_min):
+        """
+        Sanitize a single LaserScan range reading.
+
+        - None / NaN / Inf  -> no return -> nothing detected -> max_range (clear)
+        - <= 0.0 or < range_min -> sensor saturated at its floor -> the
+          obstacle is AT LEAST as close as range_min -> return range_min
+          (near/contact), never max_range. This is the case that matters
+          most: it is what a real collision or near-collision looks like.
+        - otherwise -> clamp into [range_min, max_range]
+        """
         if value is None:
             return max_range
         if math.isnan(value) or math.isinf(value):
             return max_range
-        if value <= 0.0:
-            return max_range
+        if value <= 0.0 or value < range_min:
+            return range_min
         return min(value, max_range)
 
     def _sector_min(self, scan_msg, deg_min, deg_max):
@@ -63,13 +81,14 @@ class StateEncoder:
             return float("inf")
 
         max_range = scan_msg.range_max if scan_msg.range_max > 0 else 10.0
+        range_min = scan_msg.range_min if scan_msg.range_min > 0 else 0.05
         result = max_range
 
         for index, raw_value in enumerate(scan_msg.ranges):
             angle_rad = scan_msg.angle_min + (index * scan_msg.angle_increment)
             angle_deg = math.degrees(angle_rad)
             if deg_min <= angle_deg <= deg_max:
-                result = min(result, self._valid_range(raw_value, max_range))
+                result = min(result, self._valid_range(raw_value, max_range, range_min))
 
         return result
 

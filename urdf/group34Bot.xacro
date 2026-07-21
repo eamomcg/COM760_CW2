@@ -14,19 +14,42 @@
     <origin xyz="0 0 0.08" rpy="0 0 0" />
   </joint>
 
+  <!-- UPGRADED BASE LINK: Visually a van, physically a box -->
   <link name="base_link">
     <xacro:custom_inertia m="2.0" ixx="0.03" iyy="0.03" izz="0.05" />
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry><box size="0.40 0.30 0.16" /></geometry>
+    
+    <!-- VISUAL 1: The Lower Chassis (Flatbed base) -->
+    <visual name="flatbed_visual">
+      <origin xyz="0 0 -0.055" rpy="0 0 0" />
+      <geometry><box size="0.40 0.30 0.05" /></geometry>
+      <!-- Assuming 'dark' is defined in your materials.xacro -->
+      <material name="dark" /> 
+    </visual>
+
+    <!-- VISUAL 2: The Cargo Box (Back of the van) -->
+    <visual name="cargo_visual">
+      <origin xyz="-0.075 0 0.07" rpy="0 0 0" />
+      <geometry><box size="0.25 0.30 0.20" /></geometry>
+      <!-- Assuming 'grey' is defined in your materials.xacro -->
+      <material name="grey" />
+    </visual>
+
+    <!-- VISUAL 3: The Driver Cab (Front of the van) -->
+    <visual name="cab_visual">
+      <origin xyz="0.125 0 0.045" rpy="0 0 0" />
+      <geometry><box size="0.15 0.28 0.15" /></geometry>
+      <!-- Assuming 'blue' is defined in your materials.xacro -->
       <material name="blue" />
     </visual>
+
+    <!-- ORIGINAL COLLISION: Untouched to protect Q-Learning physics -->
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry><box size="0.40 0.30 0.16" /></geometry>
     </collision>
   </link>
 
+  <!-- Left Wheel -->
   <link name="left_wheel">
     <xacro:custom_inertia m="0.25" ixx="0.001" iyy="0.001" izz="0.001" />
     <visual>
@@ -40,6 +63,7 @@
     </collision>
   </link>
 
+  <!-- Right Wheel -->
   <link name="right_wheel">
     <xacro:custom_inertia m="0.25" ixx="0.001" iyy="0.001" izz="0.001" />
     <visual>
@@ -53,6 +77,7 @@
     </collision>
   </link>
 
+  <!-- Left Wheel Joint -->
   <joint name="left_wheel_joint" type="continuous">
     <parent link="base_link" />
     <child link="left_wheel" />
@@ -60,6 +85,7 @@
     <axis xyz="0 1 0" />
   </joint>
 
+  <!-- Right Wheel Joint -->
   <joint name="right_wheel_joint" type="continuous">
     <parent link="base_link" />
     <child link="right_wheel" />
@@ -67,6 +93,7 @@
     <axis xyz="0 1 0" />
   </joint>
 
+  <!-- Caster Wheel -->
   <link name="caster_wheel">
     <xacro:custom_inertia m="0.10" ixx="0.0002" iyy="0.0002" izz="0.0002" />
     <visual>
@@ -78,12 +105,14 @@
     </collision>
   </link>
 
+  <!-- Caster Wheel Joint -->
   <joint name="caster_joint" type="fixed">
     <parent link="base_link" />
     <child link="caster_wheel" />
     <origin xyz="-0.16 0 -0.075" rpy="0 0 0" />
   </joint>
 
+  <!-- Lidar Sensor -->
   <link name="laser_link">
     <xacro:custom_inertia m="0.10" ixx="0.0001" iyy="0.0001" izz="0.0001" />
     <visual>
@@ -97,6 +126,7 @@
     </collision>
   </link>
 
+  <!-- Lidar Joint (Sits exactly on top of the new cab) -->
   <joint name="laser_joint" type="fixed">
     <parent link="base_link" />
     <child link="laser_link" />
