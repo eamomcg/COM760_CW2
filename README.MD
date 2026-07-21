@@ -13,6 +13,7 @@ This project designs and implements an autonomous navigation solution for a mobi
 
 ## Branching Strategy & Workflow
 
+
 This project utilizes the **GitHub Flow** strategy to maintain a stable codebase for collaboration:
 
 * **`main` Branch:** Represents the production-ready state. Code on this branch must always compile successfully (`catkin_make`) and run without crashing. Direct commits to `main` are prohibited.
