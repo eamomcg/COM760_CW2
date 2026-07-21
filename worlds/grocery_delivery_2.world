@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-  <world name="grocery_delivery">
+  <world name="grocery_delivery_2">
 
     <!-- Better default camera angle looking at the center -->
     <gui>
