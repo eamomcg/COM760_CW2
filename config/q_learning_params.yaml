@@ -13,8 +13,8 @@ start_x: 0.0
 start_y: 0.0
 start_z: 0.08
 start_yaw: 0.0
-goal_x: 6.0
-goal_y: 4.0
+goal_x: 0.0
+goal_y: -28.0
 goal_tolerance: 0.45
 
 # Q-learning parameters.
