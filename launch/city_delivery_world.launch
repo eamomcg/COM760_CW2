@@ -17,8 +17,7 @@
   </include>
 
   <param name="robot_description" command="$(find xacro)/xacro '$(find com760cw2_group34)/urdf/group34Bot.xacro'" />
-  // changed from using urdf to xacro for better modularity and maintainability as per CW2 brief
-
+ <!-- changed from using urdf to xacro for better modularity and maintainability as per CW2 brief -->
 
   <node name="spawn_groupid_bot"
         pkg="gazebo_ros"

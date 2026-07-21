@@ -1,49 +1,45 @@
-#!/usr/bin/env python3
-"""
-Optional shared script: creates simple plots from an episode CSV.
-Run outside ROS, for example:
-python3 scripts/plot_results.py results/episode_log_YYYYMMDD-HHMMSS.csv
-"""
-
-import os
 import sys
-
-import matplotlib.pyplot as plt
 import pandas as pd
-
+import matplotlib.pyplot as plt
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python3 plot_results.py <episode_log.csv>")
-        sys.exit(1)
+        print("Usage: python3 plot_results.py <episode_log_csv>")
+        return
 
-    csv_path = sys.argv[1]
-    df = pd.read_csv(csv_path)
-    out_dir = os.path.dirname(csv_path)
+    csv_file = sys.argv[1]
+    df = pd.read_csv(csv_file)
 
-    plt.figure()
-    plt.plot(df["episode"], df["total_reward"])
+    # Convert columns explicitly to numpy arrays to avoid pandas/matplotlib version bugs
+    episodes = df["episode"].to_numpy()
+    rewards = df["total_reward"].to_numpy()
+    
+    # Calculate rolling success rate safely
+    success = df["goal_reached"].to_numpy()
+    success_series = pd.Series(success)
+    success_rate = success_series.rolling(window=20, min_periods=1).mean().to_numpy()
+
+    # Plot 1: Reward Curve
+    plt.figure(figsize=(10, 5))
+    plt.plot(episodes, rewards, color='blue', alpha=0.6)
+    plt.title("Reward per Episode")
     plt.xlabel("Episode")
-    plt.ylabel("Total reward")
-    plt.title("Q-learning reward per episode")
+    plt.ylabel("Total Reward")
     plt.grid(True)
-    reward_path = os.path.join(out_dir, "reward_curve.png")
-    plt.savefig(reward_path, bbox_inches="tight")
+    plt.savefig("reward_curve.png")
+    plt.close()
 
-    plt.figure()
-    success_rate = df["goal_reached"].rolling(window=20, min_periods=1).mean()
-    plt.plot(df["episode"], success_rate)
+    # Plot 2: Success Rate Curve
+    plt.figure(figsize=(10, 5))
+    plt.plot(episodes, success_rate * 100, color='green')
+    plt.title("Success Rate (20-Episode Moving Average)")
     plt.xlabel("Episode")
-    plt.ylabel("Success rate, rolling 20 episodes")
-    plt.title("Q-learning success rate")
+    plt.ylabel("Success Rate (%)")
     plt.grid(True)
-    success_path = os.path.join(out_dir, "success_rate.png")
-    plt.savefig(success_path, bbox_inches="tight")
+    plt.savefig("success_rate.png")
+    plt.close()
 
-    print("Saved:")
-    print(reward_path)
-    print(success_path)
-
+    print("Successfully generated reward_curve.png and success_rate.png!")
 
 if __name__ == "__main__":
     main()

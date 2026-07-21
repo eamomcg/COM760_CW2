@@ -20,5 +20,6 @@
     <param name="mode" value="train" />
     <param name="q_table_path" value="$(find com760cw2_group34)/results/q_table.json" />
     <param name="results_dir" value="$(find com760cw2_group34)/results/" />
- </node>
+    <param name="max_episodes" value="1500" />
+</node>
 </launch>
