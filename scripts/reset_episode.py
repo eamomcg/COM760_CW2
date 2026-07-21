@@ -2,7 +2,7 @@
 """
 Workstream B: resets the robot at the beginning of each Q-learning episode.
 
-This node advertises /groupidBot/reset_episode as std_srvs/Empty and uses
+This node advertises /group34Bot/reset_episode as std_srvs/Empty and uses
 /gazebo/set_model_state to move the robot back to the configured start pose.
 """
 
@@ -20,13 +20,13 @@ class EpisodeResetter:
     def __init__(self):
         rospy.init_node("episode_resetter")
 
-        self.robot_model_name = rospy.get_param("~robot_model_name", rospy.get_param("robot_model_name", "groupidBot"))
+        self.robot_model_name = rospy.get_param("~robot_model_name", rospy.get_param("robot_model_name", "group34Bot"))
         self.start_x = float(rospy.get_param("~start_x", rospy.get_param("start_x", 0.0)))
         self.start_y = float(rospy.get_param("~start_y", rospy.get_param("start_y", 0.0)))
         self.start_z = float(rospy.get_param("~start_z", rospy.get_param("start_z", 0.05)))
         self.start_yaw = float(rospy.get_param("~start_yaw", rospy.get_param("start_yaw", 0.0)))
 
-        self.service_name = rospy.get_param("~service_name", "/groupidBot/reset_episode")
+        self.service_name = rospy.get_param("~service_name", "/group34Bot/reset_episode")
 
         rospy.wait_for_service("/gazebo/set_model_state")
         self.set_model_state = rospy.ServiceProxy("/gazebo/set_model_state", SetModelState)

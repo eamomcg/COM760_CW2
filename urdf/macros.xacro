@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <!-- Macro to quickly generate inertial tags -->
+  <xacro:macro name="custom_inertia" params="m ixx iyy izz">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="${m}" />
+      <inertia ixx="${ixx}" ixy="0.0" ixz="0.0" iyy="${iyy}" iyz="0.0" izz="${izz}" />
+    </inertial>
+  </xacro:macro>
+</robot>

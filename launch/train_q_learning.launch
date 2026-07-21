@@ -1,20 +1,24 @@
 <launch>
-  <include file="$(find com760cw2_groupid)/launch/city_delivery_world.launch" />
+ <include file="$(find com760cw2_group34)/launch/city_delivery_world.launch">
+    <arg name="gui" value="true" />
+ </include>
+ 
+ <rosparam command="load" file="$(find com760cw2_group34)/config/q_learning_params.yaml" />
 
-  <rosparam command="load" file="$(find com760cw2_groupid)/config/q_learning_params.yaml" />
+ <node name="episode_resetter" pkg="com760cw2_group34" type="reset_episode.py" output="screen" />
 
-  <node name="episode_resetter" pkg="com760cw2_groupid" type="reset_episode.py" output="screen" />
-
-  <node name="mobile_obstacle_controller" pkg="com760cw2_groupid" type="mobile_obstacle_controller.py" output="screen">
+ <!--<node name="mobile_obstacle_controller" pkg="com760cw2_group34" type="mobile_obstacle_controller.py" output="screen">
     <param name="model_name" value="moving_pedestrian" />
     <param name="x1" value="2.0" />
     <param name="y1" value="-1.0" />
     <param name="x2" value="2.0" />
     <param name="y2" value="2.5" />
     <param name="speed" value="0.35" />
-  </node>
-
-  <node name="q_learning_delivery_node" pkg="com760cw2_groupid" type="q_learning_node.py" output="screen">
+ </node>
+-->
+ <node name="q_learning_delivery_node" pkg="com760cw2_group34" type="q_learning_node.py" output="screen">
     <param name="mode" value="train" />
-  </node>
+    <param name="q_table_path" value="$(find com760cw2_group34)/results/q_table.json" />
+    <param name="results_dir" value="$(find com760cw2_group34)/results/" />
+ </node>
 </launch>
