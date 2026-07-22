@@ -5,16 +5,8 @@ Workstream A: reward shaping for Q-learning navigation.
 The reward function should be simple enough to explain in the report:
 - strongly reward reaching the delivery goal
 - strongly punish collisions or unsafe closeness
-- mildly reward progress toward the goal
+- mildly reward progress toward the goal (dense breadcrumbs)
 - mildly punish wasted steps/spinning
-
-FIX: previously this code re-filtered min_distance/front_distance with
-"<= 0.08 -> 999.0 (clear)". state_encoder.py already sanitizes raw scan
-values properly (NaN/Inf -> clear, saturated-at-floor -> near/contact), so
-re-applying a second, cruder filter here was silently converting genuine
-collisions into "nothing detected" and removing the collision_penalty signal
-entirely. That filter has been removed; only NaN/Inf are treated as "no
-reading" here now, as a defensive fallback.
 """
 
 import math
@@ -48,11 +40,7 @@ class RewardManager:
         min_distance = current_info["min_distance"]
         front_distance = current_info["front_distance"]
 
-        # Only guard against genuinely invalid values here. Do NOT treat
-        # small distances as invalid -- state_encoder.py already turned
-        # "sensor saturated at its floor" into range_min, which is a real,
-        # meaningful near-collision reading and must reach the collision
-        # check below.
+        # Defensive fallback for invalid sensor values
         if min_distance is None or math.isnan(min_distance) or math.isinf(min_distance):
             min_distance = 999.0
         if front_distance is None or math.isnan(front_distance) or math.isinf(front_distance):
@@ -67,17 +55,22 @@ class RewardManager:
         if collision:
             return self.collision_penalty, True, False, True
 
+        # Base penalty for taking a step
         reward = self.step_penalty
 
+        # Dense Reward Shaping / Breadcrumb logic:
+        # Measures direct continuous progression toward the target goal.
         progress = previous_distance_to_goal - current_distance
         if progress > 0.0:
             reward += progress * self.progress_reward_scale
         else:
             reward += self.moved_away_penalty
 
+        # Obstacle proximity check
         if front_distance < self.near_obstacle_distance:
             reward += self.near_obstacle_penalty
 
+        # Action penalty for turning/spinning (encourages efficient driving)
         if action_id in [1, 2]:
             reward += self.turn_penalty
 

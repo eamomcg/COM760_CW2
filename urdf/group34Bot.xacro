@@ -11,7 +11,8 @@
   <joint name="base_footprint_joint" type="fixed">
     <parent link="base_footprint" />
     <child link="base_link" />
-    <origin xyz="0 0 0.08" rpy="0 0 0" />
+    <!-- <origin xyz="0 0 0.08" rpy="0 0 0" /> -->
+    <origin xyz="0 0 0.12" rpy="0 0 0" />
   </joint>
 
   <!-- UPGRADED BASE LINK: Visually a van, physically a box -->
@@ -109,7 +110,8 @@
   <joint name="caster_joint" type="fixed">
     <parent link="base_link" />
     <child link="caster_wheel" />
-    <origin xyz="-0.16 0 -0.075" rpy="0 0 0" />
+    <!-- <origin xyz="-0.16 0 -0.075" rpy="0 0 0" /> -->
+    <origin xyz="-0.16 0 -0.085" rpy="0 0 0" />
   </joint>
 
   <!-- Lidar Sensor -->
