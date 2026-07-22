@@ -18,36 +18,49 @@ goal_y: 4.0
 goal_tolerance: 0.45
 
 # Q-learning parameters.
-max_episodes: 200
-max_steps_per_episode: 500    
-control_rate_hz: 5.0         # Increased to 15.0. It will make decisions 3x faster.
+max_episodes: 600
+max_steps_per_episode: 600
+control_rate_hz: 10.0
 alpha: 0.30
 gamma: 0.90
 epsilon: 1.00
 epsilon_min: 0.05
-epsilon_decay: 0.99          # Lowered slightly from 0.995 so it trusts its Q-table faster.
+epsilon_decay: 0.995          # floor reached at ~episode 598, matched to max_episodes
 
 # State encoder thresholds.
-blocked_distance: 0.45
-near_distance: 1.00
+blocked_distance: 0.60
+near_distance: 1.20
 goal_close_distance: 0.60
 goal_medium_distance: 2.50
+goal_far_distance: 8.00       # requires matching bucket added in state_encoder.py
 
 # Action speeds.
-linear_speed: 5.00           # Set to 5.0 to fly across the large map.
-angular_speed: 2.5
+linear_speed: 1.00            # per-step travel = 1.0/10 = 0.10m
+angular_speed: 1.50
 
 # Reward design.
-collision_distance: 0.24      # Increased from 0.15 so it triggers BEFORE the 0.22m laser blindspot.
-near_obstacle_distance: 0.35  # Set to give a tight, accurate 11cm warning zone before a collision.
-goal_reward: 5000.0           # Increased for a massive success jackpot.
-collision_penalty: -500.0     # Heavily penalize high-speed crashes.
-step_penalty: -0.05           # Minor step drain.
-progress_reward_scale: 1000.0 # Huge dense breadcrumb reward scale.
+collision_distance: 0.30
+near_obstacle_distance: 0.55
+goal_reward: 500.0
+collision_penalty: -500.0     # dominates worst-case accumulated progress reward (~480 max)
+step_penalty: -0.05
+progress_reward_scale: 8.0
 moved_away_penalty: -10.0
-near_obstacle_penalty: -2.0  
+near_obstacle_penalty: -5.0
 turn_penalty: -0.1
 
 # File paths.
 results_dir: "/home/b00992264/com760_ws/src/com760cw2_group34/results"
 q_table_path: "/home/b00992264/com760_ws/src/com760cw2_group34/results/q_table.json"
+
+# Randomized start/goal waypoints (must sit on road surface, clear of buildings/parked cars).
+randomize_positions: true
+waypoints:
+  - {x: 15.0,  y: 0.0,  yaw: 0.0}
+  - {x: -15.0, y: 4.0,  yaw: 0.0}
+  - {x: 0.0,   y: -20.0, yaw: 1.57}
+  - {x: 0.0,   y: 20.0,  yaw: -1.57}
+  - {x: -25.0, y: 0.0,  yaw: 3.14}
+  - {x: 25.0,  y: 0.0,  yaw: 3.14}
+  - {x: 0.0,   y: -35.0, yaw: 1.57}
+  - {x: 0.0,   y: 30.0,  yaw: -1.57}
