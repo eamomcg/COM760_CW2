@@ -22,7 +22,7 @@
   <node name="spawn_group34_bot"
         pkg="gazebo_ros"
         type="spawn_model"
-        args="-urdf -model group34Bot -param robot_description -x 15 -y 0.0 -z 0.08"
+        args="-urdf -model group34Bot -param robot_description -x 15 -y 0.0 -z 0.08 -Y 3.14159"
         output="screen" />
 
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen" />
