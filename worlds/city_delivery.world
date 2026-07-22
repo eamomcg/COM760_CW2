@@ -162,7 +162,21 @@
         </trajectory>
       </script>
     </actor>
-
+    <!-- Visual Finish Line (Red Goal Marker on the road outside House 1) -->
+        <model name="goal_marker">
+          <static>true</static>
+          <pose>-15.0 4.0 0.02 0 0 0</pose>
+          <link name="link">
+            <visual name="visual">
+              <geometry><cylinder><radius>2.0</radius><length>0.05</length></cylinder></geometry>
+              <material>
+                <ambient>1 0 0 1</ambient>
+                <diffuse>1 0 0 1</diffuse>
+                <emissive>1 0 0 1</emissive>
+              </material>
+            </visual>
+          </link>
+        </model>
     <!-- Pedestrian 2: Crossing the main intersection -->
     <actor name="pedestrian_2">
       <skin><filename>walk.dae</filename><scale>1.0</scale></skin>
