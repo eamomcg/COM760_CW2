@@ -15,24 +15,24 @@ start_z: 0.08
 start_yaw: 0.0
 goal_x: -15.0
 goal_y: 4.0
-goal_tolerance: 0.45
+goal_tolerance: 2.0
 
 # Q-learning parameters.
-max_episodes: 600
-max_steps_per_episode: 600
+max_episodes: 150
+max_steps_per_episode: 1300
 control_rate_hz: 10.0
 alpha: 0.30
 gamma: 0.90
-epsilon: 1.00
+epsilon: 0.55
 epsilon_min: 0.05
-epsilon_decay: 0.995          # floor reached at ~episode 598, matched to max_episodes
+epsilon_decay: 0.984          # floor reached at ~episode 598, matched to max_episodes
 
 # State encoder thresholds.
 blocked_distance: 0.60
 near_distance: 1.20
-goal_close_distance: 0.60
-goal_medium_distance: 2.50
-goal_far_distance: 8.00       # requires matching bucket added in state_encoder.py
+goal_close_distance: 2.00
+goal_medium_distance: 6.0
+goal_far_distance: 12.0       # requires matching bucket added in state_encoder.py
 
 # Action speeds.
 linear_speed: 1.00            # per-step travel = 1.0/10 = 0.10m
@@ -42,11 +42,11 @@ angular_speed: 1.50
 collision_distance: 0.30
 near_obstacle_distance: 0.55
 goal_reward: 500.0
-collision_penalty: -500.0     # dominates worst-case accumulated progress reward (~480 max)
+collision_penalty: -1200.0     # dominates worst-case accumulated progress reward (~480 max)
 step_penalty: -0.05
-progress_reward_scale: 8.0
+progress_reward_scale: 12.0
 moved_away_penalty: -10.0
-near_obstacle_penalty: -5.0
+near_obstacle_penalty: -2.0
 turn_penalty: -0.1
 
 # File paths.
