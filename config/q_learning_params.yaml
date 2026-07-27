@@ -18,7 +18,7 @@ goal_y: 4.0
 goal_tolerance: 2.0
 
 # Q-learning parameters.
-max_episodes: 150
+max_episodes: 50
 max_steps_per_episode: 1300
 control_rate_hz: 10.0
 alpha: 0.30

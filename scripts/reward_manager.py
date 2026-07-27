@@ -63,17 +63,17 @@ class RewardManager:
         progress = previous_distance_to_goal - current_distance
 
         is_turning_action = action_id in [1, 2]
-        progress_deadzone = 0.02  # ignore noise-level distance change during pure rotation
+        progress_deadzone = 0.002  # ignore noise-level distance change during pure rotation
 
         if progress > progress_deadzone:
+            # Reward any meaningful movement toward the goal.
             reward += progress * self.progress_reward_scale
-        elif not is_turning_action:
-            # Only penalize "moved away" for actual driving actions.
-            # Turning in place (e.g. the mandatory reorientation at episode
-            # start, when the robot spawns facing ~180 deg from the goal)
-            # produces near-zero distance change and should not be treated
-            # as moving away from the goal.
+
+        elif progress < -progress_deadzone and not is_turning_action:
+            # Penalise only genuine movement away from the goal.
             reward += self.moved_away_penalty
+
+        # Near-zero movement receives only the normal step/action penalty.
 
         # Obstacle proximity check
         if front_distance < self.near_obstacle_distance:
