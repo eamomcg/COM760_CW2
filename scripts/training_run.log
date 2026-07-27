@@ -1,10 +1,10 @@
 nohup: ignoring input
-... logging to /home/b00992264/.ros/log/94e8742e-86de-11f1-8b53-234f5624acc0/roslaunch-b00992264-VirtualBox-24548.log
+... logging to /home/b00992264/.ros/log/39e3483c-86df-11f1-8b53-234f5624acc0/roslaunch-b00992264-VirtualBox-26786.log
 Checking log directory for disk usage. This may take a while.
 Press Ctrl-C to interrupt
 Done checking log file disk usage. Usage is <1GB.
 ]2;/home/b00992264/com760_ws/src/com760cw2_group34/launch/train_q_learning.launch
-[1mstarted roslaunch server http://b00992264-VirtualBox:36805/[0m
+[1mstarted roslaunch server http://b00992264-VirtualBox:44915/[0m
 
 SUMMARY
 ========
@@ -70,30 +70,31 @@ NODES
     spawn_group34_bot (gazebo_ros/spawn_model)
 
 auto-starting new master
-[1mprocess[master]: started with pid [24563][0m
+[1mprocess[master]: started with pid [26801][0m
 [1mROS_MASTER_URI=http://localhost:11311[0m
 ]2;/home/b00992264/com760_ws/src/com760cw2_group34/launch/train_q_learning.launch http://localhost:11311
-[1msetting /run_id to 94e8742e-86de-11f1-8b53-234f5624acc0[0m
-[1mprocess[rosout-1]: started with pid [24578][0m
+[1msetting /run_id to 39e3483c-86df-11f1-8b53-234f5624acc0[0m
+[1mprocess[rosout-1]: started with pid [26816][0m
 started core service [/rosout]
-[1mprocess[gazebo-2]: started with pid [24585][0m
-[1mprocess[gazebo_gui-3]: started with pid [24587][0m
-[1mprocess[spawn_group34_bot-4]: started with pid [24593][0m
-[1mprocess[robot_state_publisher-5]: started with pid [24596][0m
-[1mprocess[episode_resetter-6]: started with pid [24597][0m
-[1mprocess[q_learning_delivery_node-7]: started with pid [24598][0m
-[INFO] [1784842597.466922, 0.000000]: Loaded Q-table with 545 states from /home/b00992264/com760_ws/src/com760cw2_group34/results/q_table.json
-[INFO] [1784842597.479109, 0.000000]: Q-learning node ready. mode=train goal=(-15.00, 4.00)
-[INFO] [1784842597.480620, 0.000000]: Waiting for scan and odometry: scan=False odom=False
-[INFO] [1784842597.609072, 0.000000]: Loading model XML from ros parameter robot_description
-[INFO] [1784842597.615319, 0.000000]: Waiting for service /gazebo/spawn_urdf_model
-[INFO] [1784842599.148456, 0.000000]: Calling service /gazebo/spawn_urdf_model
-[INFO] [1784842599.249865, 0.000000]: Episode reset service ready: /group34Bot/reset_episode (randomize=True, waypoints=8)
-[INFO] [1784842599.749850, 0.005000]: Spawn status: SpawnModel: Successfully spawned entity
-[33m[WARN] [1784842599.859017900, 0.005000000]: DiffDrive(ns = //): missing <rosDebugLevel> default is na[0m
-[33m[WARN] [1784842599.861311054, 0.005000000]: DiffDrive(ns = //): missing <publishWheelJointState> default is false[0m
-[33m[WARN] [1784842599.861566377, 0.005000000]: DiffDrive(ns = //): missing <odometrySource> default is 1[0m
-[33m[WARN] [1784842599.861794755, 0.005000000]: GazeboRosDiffDrive Plugin (ns = ) missing <publishTf>, defaults to 1[0m
-[INFO] [1784842600.158925, 0.200000]: Running training mode for 150 episodes.
+[1mprocess[gazebo-2]: started with pid [26823][0m
+[1mprocess[gazebo_gui-3]: started with pid [26826][0m
+[1mprocess[spawn_group34_bot-4]: started with pid [26831][0m
+[1mprocess[robot_state_publisher-5]: started with pid [26834][0m
+[1mprocess[episode_resetter-6]: started with pid [26835][0m
+[1mprocess[q_learning_delivery_node-7]: started with pid [26837][0m
+[INFO] [1784842874.738276, 0.000000]: Loading model XML from ros parameter robot_description
+[INFO] [1784842874.747047, 0.000000]: Waiting for service /gazebo/spawn_urdf_model
+[INFO] [1784842874.888302, 0.000000]: Loaded Q-table with 545 states from /home/b00992264/com760_ws/src/com760cw2_group34/results/q_table.json
+[INFO] [1784842874.915102, 0.000000]: Q-learning node ready. mode=train goal=(-15.00, 4.00)
+[INFO] [1784842874.919144, 0.000000]: Waiting for scan and odometry: scan=False odom=False
+[INFO] [1784842876.778474, 0.000000]: Episode reset service ready: /group34Bot/reset_episode (randomize=True, waypoints=8)
+[INFO] [1784842876.887497, 0.035000]: Calling service /gazebo/spawn_urdf_model
+[INFO] [1784842877.330763, 0.175000]: Spawn status: SpawnModel: Successfully spawned entity
+[33m[WARN] [1784842877.353533819, 0.175000000]: DiffDrive(ns = //): missing <rosDebugLevel> default is na[0m
+[33m[WARN] [1784842877.363238478, 0.175000000]: DiffDrive(ns = //): missing <publishWheelJointState> default is false[0m
+[33m[WARN] [1784842877.364384202, 0.175000000]: DiffDrive(ns = //): missing <odometrySource> default is 1[0m
+[33m[WARN] [1784842877.365143014, 0.175000000]: GazeboRosDiffDrive Plugin (ns = ) missing <publishTf>, defaults to 1[0m
+[INFO] [1784842877.584865, 0.300000]: Running training mode for 150 episodes.
 [1m[spawn_group34_bot-4] process has finished cleanly
-log file: /home/b00992264/.ros/log/94e8742e-86de-11f1-8b53-234f5624acc0/spawn_group34_bot-4*.log[0m
+log file: /home/b00992264/.ros/log/39e3483c-86df-11f1-8b53-234f5624acc0/spawn_group34_bot-4*.log[0m
+[INFO] [1784842896.559332, 16.655000]: Episode 1 finished: steps=150 total_reward=-1939.25 goal=False collision=True epsilon=0.550
