@@ -1,0 +1,3770 @@
+{
+  "F:blocked|FL:blocked|FR:blocked|L:blocked|R:clear|goal_behind|goal_far": [
+    -0.918,
+    -74.31599999999999,
+    -0.48,
+    -150.0,
+    -105.465,
+    -0.843
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:blocked|R:clear|goal_behind|goal_mid_far": [
+    -150.0,
+    0.0,
+    0.0,
+    -0.54,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:blocked|R:clear|goal_front|goal_far": [
+    -249.22085910856185,
+    -155.52575983425362,
+    -150.75623015641744,
+    -292.2465741760931,
+    -296.15592771653337,
+    -150.7152126389628
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:blocked|R:clear|goal_front|goal_mid_far": [
+    -0.33543635699298785,
+    0.0,
+    0.0,
+    0.0,
+    -150.0,
+    0.0
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:blocked|R:clear|goal_left|goal_far": [
+    -150.57294473498064,
+    -1.7718571752417513,
+    -12.834585511698872,
+    -151.56275222531468,
+    -105.78988432660915,
+    -1.857395688176396
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:blocked|R:clear|goal_left|goal_mid_far": [
+    -0.4474554806835693,
+    -0.7945840310052159,
+    -0.7952618370347286,
+    -0.443398452280306,
+    -150.43204042461997,
+    -150.0
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:blocked|R:clear|goal_right|goal_far": [
+    -150.909179625,
+    -74.61316499999998,
+    -0.948525,
+    -150.45802500000002,
+    -1.361425313460579,
+    -1.150875
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:blocked|R:near|goal_behind|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    -150.0,
+    0.0,
+    -0.54
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:blocked|R:near|goal_front|goal_far": [
+    -150.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:clear|R:blocked|goal_behind|goal_far": [
+    -2.3625711,
+    -2.4967280772000002,
+    -152.0738458905,
+    -2.444923611,
+    -152.017876122,
+    -120.64769128344
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:clear|R:blocked|goal_front|goal_far": [
+    -1.9188058788295694,
+    -1.7170579668581634,
+    -2.0488928932637767,
+    -150.0,
+    -1.8489418485904672,
+    -329.1550157526573
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:clear|R:blocked|goal_front|goal_mid_far": [
+    -150.0,
+    0.0,
+    0.0,
+    -150.0,
+    -0.3492552255124332,
+    -150.0
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:clear|R:blocked|goal_left|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:clear|R:blocked|goal_right|goal_mid_far": [
+    -0.36252327251661515,
+    -150.0,
+    0.0,
+    0.0,
+    -0.3687804432754069,
+    0.0
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:clear|R:clear|goal_behind|goal_far": [
+    -1.0911707910000001,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:clear|R:clear|goal_front|goal_far": [
+    -153.62366540484797,
+    -154.9659823001413,
+    -109.23616787392926,
+    -170.58125209183598,
+    -5.891282861393514,
+    -8.204476965881758
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:clear|R:clear|goal_front|goal_mid_far": [
+    -56.4359619127047,
+    -151.92362711224666,
+    -161.96261236747037,
+    -80.88022251973612,
+    -97.11558449843054,
+    -153.5553288734441
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:clear|R:clear|goal_left|goal_far": [
+    -150.7799644091817,
+    -150.6213120749806,
+    -75.46862846222295,
+    -151.25284531708627,
+    -151.1042809853006,
+    -150.80541399399158
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:clear|R:clear|goal_left|goal_mid_far": [
+    -0.8709001476543159,
+    -0.46519987472575464,
+    -150.45356699885386,
+    -0.8700548769901137,
+    -0.8475457910883237,
+    -0.8668272807397276
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:clear|R:clear|goal_right|goal_far": [
+    -0.8062136345353099,
+    -0.4404924273857414,
+    -0.44278802914730836,
+    -150.2843896121741,
+    -150.39983672556625,
+    -0.7361623453256473
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:clear|R:clear|goal_right|goal_mid_far": [
+    -150.4310751645792,
+    -150.0,
+    -1.7715526540148943,
+    -1.50617364795428,
+    -151.47391744010224,
+    -1.551287719482635
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:clear|R:near|goal_behind|goal_far": [
+    -0.54,
+    -0.48,
+    0.0,
+    0.0,
+    -1.1826,
+    -1.36782
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:clear|R:near|goal_front|goal_far": [
+    -151.8050034455858,
+    -3.516743807145298,
+    -107.03433530658958,
+    -153.09013384469577,
+    -53.70463271739315,
+    -152.37659733066275
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:clear|R:near|goal_front|goal_mid_far": [
+    -0.41258285487717766,
+    -150.27092817756522,
+    -150.35692407531806,
+    -0.6839688281161334,
+    -3.676022392133209,
+    -0.4047958719086539
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:clear|R:near|goal_left|goal_far": [
+    -0.923025,
+    -0.8160000000000001,
+    -0.48,
+    -150.45802500000002,
+    -0.46499999999999997,
+    -0.46499999999999997
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:near|R:blocked|goal_right|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:near|R:clear|goal_behind|goal_far": [
+    -0.918,
+    -0.8160000000000001,
+    -0.9528,
+    -0.54,
+    -0.54,
+    -1.4442300000000001
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:near|R:clear|goal_front|goal_far": [
+    -46.00260152687031,
+    -5.670584840459251,
+    -46.05240362094943,
+    -150.37156465099966,
+    -152.46822676395868,
+    -105.74298215779916
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:near|R:clear|goal_left|goal_mid_far": [
+    0.0,
+    0.0,
+    -0.4499815913993089,
+    0.0,
+    -0.4463749629582702,
+    0.0
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:near|R:clear|goal_right|goal_far": [
+    -0.46499999999999997,
+    -0.48,
+    -0.9699,
+    -0.46499999999999997,
+    -1.336095,
+    0.0
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:near|R:clear|goal_right|goal_mid_far": [
+    -0.6541369805216488,
+    -0.39835481820356616,
+    0.0,
+    -105.3685624700789,
+    -0.46499999999999997,
+    -0.4009077466993178
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:near|R:near|goal_behind|goal_far": [
+    0.0,
+    -0.8160000000000001,
+    0.0,
+    -150.6426,
+    -1.1826,
+    -0.54
+  ],
+  "F:blocked|FL:blocked|FR:blocked|L:near|R:near|goal_right|goal_mid_far": [
+    -150.0,
+    0.0,
+    0.0,
+    -0.3926867102874036,
+    0.0,
+    -0.3782066758269275
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:blocked|R:clear|goal_front|goal_far": [
+    -0.3520361597274155,
+    -0.42763991559879205,
+    -0.7699293129153154,
+    -0.79487091877644,
+    -0.798843022294998,
+    -150.39538160221795
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:blocked|R:clear|goal_front|goal_mid_far": [
+    -179.18436511754228,
+    -151.0087555444634,
+    -112.83524820707268,
+    -108.13841778523563,
+    -225.25659172498075,
+    -152.1814403138357
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:blocked|R:clear|goal_left|goal_far": [
+    -4.60484006440148,
+    -4.3473434790133805,
+    -226.37170035652935,
+    -152.66570437431224,
+    -4.750660614959463,
+    -153.96226863478566
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:blocked|R:clear|goal_left|goal_mid_far": [
+    -74.95797309868485,
+    -12.267640001465162,
+    -152.3322906290575,
+    -150.77952338490562,
+    -154.5424454688273,
+    -151.3046886492145
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:blocked|R:clear|goal_right|goal_far": [
+    -1.8181905104460623,
+    -2.6694298364310467,
+    -2.070203520655944,
+    -2.2906070251501633,
+    -2.4652131695963355,
+    -157.74889744950767
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:blocked|R:clear|goal_right|goal_mid_far": [
+    -151.63163411679622,
+    -3.119158120880704,
+    -150.85191300641287,
+    -106.08776666225899,
+    -52.866909823446264,
+    -2.981099205144626
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:clear|R:clear|goal_behind|goal_far": [
+    -0.54,
+    -0.8160000000000001,
+    -0.8160000000000001,
+    -0.54,
+    -0.843,
+    -1.31532
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:clear|R:clear|goal_front|goal_far": [
+    -1.073260420811241,
+    -0.776862264006009,
+    -1.2439693733887673,
+    -0.7321429674757313,
+    -0.7002501099337042,
+    -1.0054539045913118
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:clear|R:clear|goal_front|goal_mid_far": [
+    -6.359672296568065,
+    -6.158346785618905,
+    -3.8009685616673012,
+    -152.49877522162402,
+    -107.48650967712922,
+    -13.59174841880716
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:clear|R:clear|goal_left|goal_mid_far": [
+    -2.2217288651161238,
+    -1.2029660733299485,
+    -1.3242322337961872,
+    -1.4735390369759778,
+    -1.4578372765733731,
+    -2.0174949897325845
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:clear|R:clear|goal_right|goal_far": [
+    -2.095916426556045,
+    -2.174025587191432,
+    -2.1119883798245924,
+    -37.53637889281437,
+    -2.054188725337542,
+    -151.64647578678742
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:clear|R:clear|goal_right|goal_mid_far": [
+    -3.2752634864111627,
+    -3.092393482435652,
+    -152.39826245552717,
+    -107.44266017300217,
+    -3.003602173370376,
+    -150.40397600874672
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:near|R:clear|goal_behind|goal_far": [
+    0.0,
+    -0.48,
+    0.0,
+    -150.378,
+    -0.54,
+    -0.54
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:near|R:clear|goal_front|goal_far": [
+    -0.4006587026782002,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.41441414426075357
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:near|R:clear|goal_front|goal_mid_far": [
+    -119.71402623461627,
+    -109.19798113879409,
+    -4.624379363279797,
+    -151.65053395775308,
+    -152.19689628583998,
+    -107.98191865864959
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:near|R:clear|goal_left|goal_far": [
+    -1.6363296911719418,
+    -0.6139440756989006,
+    -0.6825427420813287,
+    -0.7616830068585592,
+    -1.0585872337949829,
+    -0.747790216598514
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:near|R:clear|goal_right|goal_far": [
+    -0.7682512274114386,
+    -0.9091567803322664,
+    -0.45436157911244335,
+    -1.2978655174340286,
+    -1.2397099923830417,
+    -0.46499999999999997
+  ],
+  "F:blocked|FL:blocked|FR:clear|L:near|R:clear|goal_right|goal_mid_far": [
+    -1.3160801479749282,
+    -1.3760659360303342,
+    -1.8822099882545564,
+    -1.4068765720048455,
+    -150.78980223041555,
+    -1.0947265104130173
+  ],
+  "F:blocked|FL:blocked|FR:near|L:blocked|R:clear|goal_behind|goal_far": [
+    -2.5251130275,
+    -1.87723038,
+    -151.80513384,
+    -1.8875665499999998,
+    -1.62945,
+    -2.27542266
+  ],
+  "F:blocked|FL:blocked|FR:near|L:blocked|R:clear|goal_behind|goal_mid_far": [
+    -0.54,
+    -0.8160000000000001,
+    -0.9528,
+    -1.4151600000000002,
+    -0.54,
+    -0.54
+  ],
+  "F:blocked|FL:blocked|FR:near|L:blocked|R:clear|goal_front|goal_mid_far": [
+    -6.248100332045658,
+    -109.17691074225654,
+    -6.281992860499907,
+    -53.90079237768793,
+    -6.299460374841926,
+    -156.10958373623663
+  ],
+  "F:blocked|FL:blocked|FR:near|L:blocked|R:clear|goal_left|goal_far": [
+    -153.16804451075015,
+    -55.101951269957745,
+    -155.18280297138747,
+    -53.36143083043504,
+    -75.23738467374996,
+    -188.59013908483936
+  ],
+  "F:blocked|FL:blocked|FR:near|L:blocked|R:clear|goal_left|goal_mid_far": [
+    -1.1357852986764079,
+    -1.1830503511141874,
+    -12.520804450151793,
+    -1.7911101976183552,
+    -2.044888918022546,
+    -1.2733081653267162
+  ],
+  "F:blocked|FL:blocked|FR:near|L:blocked|R:clear|goal_right|goal_far": [
+    -2.4324835857403437,
+    -2.285015444619167,
+    -2.8266449028331766,
+    -2.431555072523277,
+    -2.354853228021447,
+    -38.02020292642857
+  ],
+  "F:blocked|FL:blocked|FR:near|L:blocked|R:clear|goal_right|goal_mid_far": [
+    -151.6762259896948,
+    -153.6603354369869,
+    -3.9419680135956976,
+    -3.9896624211966087,
+    -152.11449386703802,
+    -105.76435474783655
+  ],
+  "F:blocked|FL:blocked|FR:near|L:clear|R:clear|goal_behind|goal_far": [
+    -0.54,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:blocked|FR:near|L:clear|R:clear|goal_behind|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -150.0,
+    0.0
+  ],
+  "F:blocked|FL:blocked|FR:near|L:clear|R:clear|goal_front|goal_far": [
+    -4.174208554537881,
+    -4.76327558767506,
+    -4.991734793663569,
+    -5.227110907476288,
+    -4.548384126191443,
+    -5.127958623759129
+  ],
+  "F:blocked|FL:blocked|FR:near|L:clear|R:clear|goal_front|goal_mid_far": [
+    -9.72093773061447,
+    -156.87036685059678,
+    -9.802303474664361,
+    -19.163348193746785,
+    -20.01111654228342,
+    -7.523446516513607
+  ],
+  "F:blocked|FL:blocked|FR:near|L:clear|R:clear|goal_left|goal_far": [
+    -3.629239045362783,
+    -45.5548507475781,
+    -3.529683362591822,
+    -3.61859907351162,
+    -12.788137925851665,
+    -3.6008255603875106
+  ],
+  "F:blocked|FL:blocked|FR:near|L:clear|R:clear|goal_left|goal_mid_far": [
+    -1.6183625392011034,
+    -1.4781133548986514,
+    -1.514586426027988,
+    -1.7231340435909634,
+    -1.5657605851665177,
+    -1.623953536965106
+  ],
+  "F:blocked|FL:blocked|FR:near|L:clear|R:clear|goal_right|goal_far": [
+    -0.43425806510595083,
+    0.0,
+    -0.4282283735072095,
+    -0.40643998971772904,
+    -0.41980718481794826,
+    0.0
+  ],
+  "F:blocked|FL:blocked|FR:near|L:clear|R:clear|goal_right|goal_mid_far": [
+    -152.08675948415183,
+    -3.148805974066507,
+    -152.5210423925763,
+    -3.05576403891247,
+    -3.0169775581936937,
+    -151.06974507820283
+  ],
+  "F:blocked|FL:blocked|FR:near|L:near|R:clear|goal_behind|goal_far": [
+    -2.334597932475,
+    -2.35414337325,
+    -2.136233805,
+    -1.883093535,
+    -2.32381042425,
+    -2.0248191
+  ],
+  "F:blocked|FL:blocked|FR:near|L:near|R:clear|goal_behind|goal_mid_far": [
+    -0.918,
+    -0.8160000000000001,
+    -0.48,
+    -0.54,
+    0.0,
+    -0.54
+  ],
+  "F:blocked|FL:blocked|FR:near|L:near|R:clear|goal_front|goal_far": [
+    -2.749749932261282,
+    -2.0154575462592317,
+    -1.886389517049632,
+    -1.922597404119228,
+    -1.654203366626089,
+    -1.8950014442284773
+  ],
+  "F:blocked|FL:blocked|FR:near|L:near|R:clear|goal_front|goal_mid_far": [
+    -2.5469843699534325,
+    -2.6068788721499936,
+    -3.8590594691603703,
+    -2.8264245744282976,
+    -3.1514332413106043,
+    -2.6006772688187993
+  ],
+  "F:blocked|FL:blocked|FR:near|L:near|R:clear|goal_left|goal_far": [
+    -2.4165500362814947,
+    -2.9560371404624934,
+    -2.5376759504638704,
+    -2.5591801563760566,
+    -2.41861644963371,
+    -3.2889726278839113
+  ],
+  "F:blocked|FL:blocked|FR:near|L:near|R:clear|goal_left|goal_mid_far": [
+    -0.870808605055598,
+    -1.362571173350523,
+    -0.9312056423329765,
+    -0.8842720378430302,
+    -0.877905447857665,
+    -0.8859558149548912
+  ],
+  "F:blocked|FL:blocked|FR:near|L:near|R:clear|goal_right|goal_far": [
+    -1.272800995716053,
+    -1.1471824141341163,
+    -1.3504265010008716,
+    -0.923025,
+    -1.7073140010008716,
+    -1.548145791946466
+  ],
+  "F:blocked|FL:blocked|FR:near|L:near|R:clear|goal_right|goal_mid_far": [
+    -0.4232844092704086,
+    -0.9033976101844845,
+    0.0,
+    -0.36490682008836844,
+    -0.37136744589289367,
+    0.0
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:blocked|goal_behind|goal_far": [
+    -3.507761837072933,
+    -3.6443359506376583,
+    -3.8630697627211856,
+    -153.18021142862122,
+    -177.99623460017776,
+    -75.90589082942552
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:blocked|goal_front|goal_far": [
+    -150.5380844568086,
+    -72.48039460344114,
+    -1.1312951745459687,
+    -1.7091158749410993,
+    -1.4231808224449554,
+    -151.28083512613858
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:blocked|goal_front|goal_mid_far": [
+    -0.8097075830295374,
+    -0.8093020019525786,
+    -150.7847250515613,
+    -150.75157896762258,
+    -1.1454697690858675,
+    -0.9124724586252212
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:blocked|goal_left|goal_far": [
+    -3.9194534424178844,
+    -151.9755778874622,
+    -150.0,
+    -256.4537362148948,
+    -3.991621428590081,
+    -153.6392523638281
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:blocked|goal_right|goal_far": [
+    -151.42145993015762,
+    -1.7832355598174405,
+    -150.85135247335324,
+    -1.4951866591902316,
+    -1.7631510502844863,
+    -1.8170768991982462
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:blocked|goal_right|goal_mid_far": [
+    -150.31151005219206,
+    -4.748040266052239,
+    -154.4236335600477,
+    -152.23440895800556,
+    -4.59022164423015,
+    -150.0
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:clear|goal_behind|goal_far": [
+    0.0,
+    0.0,
+    -0.8160000000000001,
+    -1.539712123565786,
+    -0.46499999999999997,
+    -0.7905
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:clear|goal_front|goal_far": [
+    -106.72494229452292,
+    -3.985513676252773,
+    -3.2410672555544213,
+    -3.3512384974164893,
+    -4.21018970730746,
+    -3.4563228337985454
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:clear|goal_front|goal_mid_far": [
+    -25.804506737735586,
+    -5.027949646666949,
+    -4.258823012611082,
+    -3.6559746009679053,
+    -3.3776135843816126,
+    -3.5190729272928643
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:clear|goal_left|goal_far": [
+    0.0,
+    -0.7045323564923752,
+    -0.792143709601054,
+    -1.5199132111964224,
+    -0.4384997146731708,
+    -0.7147447161434057
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:clear|goal_right|goal_far": [
+    -3.8595230882426734,
+    -152.90141834301312,
+    -3.7561418252802943,
+    -3.660144723728825,
+    -28.03308111621552,
+    -151.21629490470357
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:clear|goal_right|goal_mid_far": [
+    -1.563595156934277,
+    -1.606425775526235,
+    -1.4641446475564377,
+    -1.8824622994200577,
+    -1.9191258457818985,
+    -2.2069455290747975
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:near|goal_behind|goal_far": [
+    0.0,
+    -0.780618,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:near|goal_front|goal_far": [
+    -257.6378784643846,
+    -37.425777848357626,
+    -153.1769665484577,
+    -155.38318018132816,
+    -155.53146185119442,
+    -154.34279443231242
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:near|goal_front|goal_mid_far": [
+    -2.604508325748844,
+    -2.8152016433268026,
+    -2.145009991481079,
+    -151.06290670540295,
+    -107.37303188165038,
+    -2.47511783297991
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:near|goal_left|goal_far": [
+    -1.3460686389867325,
+    -0.8160000000000001,
+    -0.457538324031574,
+    -0.8195134119646732,
+    -0.46499999999999997,
+    -0.841877073051292
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:near|goal_right|goal_far": [
+    0.0,
+    0.0,
+    -0.4514954925093764,
+    0.0,
+    -0.4161240094175655,
+    0.0
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:clear|R:near|goal_right|goal_mid_far": [
+    -1.6171859053954762,
+    -1.3649936132423803,
+    -1.5086670950409575,
+    -1.4414917993907426,
+    -1.440945979400447,
+    -1.8753690464234745
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:near|R:blocked|goal_behind|goal_far": [
+    -0.54,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:near|R:blocked|goal_left|goal_far": [
+    0.0,
+    -0.48,
+    -0.48,
+    -0.46499999999999997,
+    0.0,
+    -1.0551
+  ],
+  "F:blocked|FL:clear|FR:blocked|L:near|R:blocked|goal_right|goal_mid_far": [
+    0.0,
+    -150.0,
+    0.0,
+    0.0,
+    -0.4360316203521572,
+    -0.4368360072798902
+  ],
+  "F:blocked|FL:clear|FR:near|L:clear|R:clear|goal_front|goal_far": [
+    -2.6454074630030666,
+    -3.6701060493545272,
+    -3.2736074351073317,
+    -3.184362703922116,
+    -3.4374050809251613,
+    -3.38138143460162
+  ],
+  "F:blocked|FL:clear|FR:near|L:clear|R:clear|goal_front|goal_mid_far": [
+    -1.1577968603361954,
+    -1.9109398260645833,
+    -1.0884875043892048,
+    -1.2632522612684502,
+    -1.171770554424462,
+    -1.406804318704073
+  ],
+  "F:blocked|FL:clear|FR:near|L:clear|R:clear|goal_left|goal_far": [
+    -0.6798745961074321,
+    -0.38607697109543043,
+    -0.40802313633929504,
+    -0.5951965234652227,
+    -0.9127797915078479,
+    -0.7049755097318967
+  ],
+  "F:blocked|FL:clear|FR:near|L:clear|R:clear|goal_right|goal_far": [
+    0.0,
+    0.0,
+    -0.7969401027248865,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:clear|FR:near|L:clear|R:near|goal_front|goal_far": [
+    -0.9912007367509283,
+    -1.5732276826375096,
+    -1.3456944493452807,
+    -0.40387653699967546,
+    -1.493676291597455,
+    -1.5307040230010573
+  ],
+  "F:blocked|FL:clear|FR:near|L:clear|R:near|goal_front|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.7829491769044264,
+    -0.37179075849837967
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:blocked|goal_behind|goal_far": [
+    -1.959858,
+    -2.0745325112343007,
+    -2.3130839781,
+    -1.8302040000000002,
+    -2.084766489,
+    -150.378
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:blocked|goal_behind|goal_mid_far": [
+    -0.54,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.6768000000000001
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:blocked|goal_front|goal_far": [
+    -0.9251401097154751,
+    -0.4488586988681536,
+    -0.8526233001982617,
+    -150.0,
+    -0.7634324805106718,
+    -0.9943526416692481
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:blocked|goal_front|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    -0.34699757303607387,
+    0.0,
+    -0.5410420881262142
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:blocked|goal_left|goal_far": [
+    -4.199845096867415,
+    -4.277972200600019,
+    -4.336393249963768,
+    -38.930877476027675,
+    -109.02508052542449,
+    -72.69173816103763
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:blocked|goal_right|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    -0.8326497715981047,
+    -0.3433206156748315,
+    0.0
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:blocked|goal_right|goal_mid_far": [
+    -0.7968151236549643,
+    -0.9704488401533968,
+    -0.9386251667880521,
+    -0.7224468894323006,
+    -1.3546883520231454,
+    -1.2160894229854577
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:clear|goal_behind|goal_far": [
+    -1.5230546249999999,
+    -1.418508,
+    -1.6600940982,
+    -1.2386175000000001,
+    -1.0719,
+    -1.0719
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:clear|goal_behind|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.8454915,
+    0.0
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:clear|goal_front|goal_far": [
+    -0.8563015724600039,
+    -1.5039497375884574,
+    -1.1313202665952868,
+    -1.0785802461651632,
+    -0.6366897808835549,
+    -0.41070349098199815
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:clear|goal_front|goal_mid_far": [
+    -3.0474886771154353,
+    -2.6267477625020725,
+    -8.315551534945312,
+    -3.1716757978454395,
+    -151.15294389530413,
+    -2.6664861023768123
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:clear|goal_left|goal_far": [
+    -1.4486795944419448,
+    -1.7390089131047686,
+    -1.1682613454798396,
+    -52.50004520444626,
+    -1.3378460864195143,
+    -1.1279828908388647
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:clear|goal_left|goal_mid_far": [
+    0.0,
+    0.0,
+    -150.0,
+    -0.46499999999999997,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:clear|goal_right|goal_far": [
+    -0.7964113837326647,
+    -0.6125664511849973,
+    -0.42822495483127515,
+    -1.5461780470583641,
+    -0.43129275388643523,
+    -0.44940395643682524
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:clear|goal_right|goal_mid_far": [
+    -76.00115300749023,
+    -4.613247084716326,
+    -3.083492896200133,
+    -150.8745505886597,
+    -4.641389161046662,
+    -4.5282352818506535
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:near|goal_behind|goal_far": [
+    -2.5180767900000003,
+    -2.8047111527784003,
+    -2.0156091072,
+    -2.7123650604000002,
+    -2.685307038552,
+    -2.4109801109999998
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:near|goal_behind|goal_mid_far": [
+    -0.54,
+    -0.8160000000000001,
+    -0.48,
+    -0.54,
+    -0.54,
+    -0.54
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:near|goal_front|goal_far": [
+    -2.571815531899935,
+    -2.4924694666587706,
+    -2.646334209906009,
+    -2.698336159555897,
+    -2.5668878151278838,
+    -2.1526458191557927
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:near|goal_front|goal_mid_far": [
+    -0.4189934373735122,
+    0.0,
+    -0.597125187192131,
+    -1.1454320409620902,
+    0.0,
+    -0.96339535925959
+  ],
+  "F:blocked|FL:near|FR:blocked|L:clear|R:near|goal_left|goal_far": [
+    -0.7905,
+    -0.48,
+    -0.9162478600672552,
+    -1.0183499999999999,
+    -1.2268093056624672,
+    -0.923025
+  ],
+  "F:blocked|FL:near|FR:blocked|L:near|R:blocked|goal_behind|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    -1.1826,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:near|FR:blocked|L:near|R:blocked|goal_left|goal_far": [
+    -0.46499999999999997,
+    -0.8160000000000001,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:near|FR:clear|L:clear|R:clear|goal_behind|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    -0.918,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:near|FR:clear|L:clear|R:clear|goal_front|goal_far": [
+    0.0,
+    -0.421298693747104,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:near|FR:clear|L:clear|R:clear|goal_front|goal_mid_far": [
+    -2.9618322443294565,
+    -2.7257060742407644,
+    -1.934764216996748,
+    -2.2515688480149763,
+    -2.4513697262096112,
+    -2.060069788704074
+  ],
+  "F:blocked|FL:near|FR:clear|L:clear|R:clear|goal_right|goal_far": [
+    -0.3712683226954249,
+    -0.7514099446394948,
+    0.6113834716003932,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:near|FR:clear|L:clear|R:clear|goal_right|goal_mid_far": [
+    -1.272814585272371,
+    -1.9233427504271767,
+    -1.3110470035142692,
+    -1.2522682725274514,
+    -1.528495818356372,
+    -1.1724264326120477
+  ],
+  "F:blocked|FL:near|FR:clear|L:near|R:clear|goal_front|goal_far": [
+    0.0,
+    -0.43299152101258503,
+    -0.4513436499091017,
+    -0.4590917684316273,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:near|FR:clear|L:near|R:clear|goal_front|goal_mid_far": [
+    -1.8077478926226762,
+    -0.3942031151642414,
+    0.0,
+    -0.8737683463985065,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:near|FR:clear|L:near|R:clear|goal_right|goal_mid_far": [
+    0.0,
+    -0.42007888000775356,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:near|FR:near|L:clear|R:clear|goal_behind|goal_mid_far": [
+    -1.91006655,
+    -1.418508,
+    -1.14696,
+    -1.5958215,
+    -1.29033,
+    -1.415965516955389
+  ],
+  "F:blocked|FL:near|FR:near|L:clear|R:clear|goal_front|goal_far": [
+    -2.131596960476835,
+    -2.846519991143407,
+    -2.9510315577952237,
+    -2.8136096329948095,
+    -2.868425850012592,
+    -2.1634784772644773
+  ],
+  "F:blocked|FL:near|FR:near|L:clear|R:clear|goal_front|goal_mid_far": [
+    -2.753546196755442,
+    -1.7032215380867948,
+    -1.795405613080903,
+    -15.263311231166142,
+    -2.091280916588849,
+    -1.9272228322130878
+  ],
+  "F:blocked|FL:near|FR:near|L:clear|R:clear|goal_left|goal_far": [
+    -0.871155540278076,
+    -0.7999836662336706,
+    -1.3237131762104248,
+    -0.7456390600607574,
+    -0.7530650568327872,
+    -0.6609931259099027
+  ],
+  "F:blocked|FL:near|FR:near|L:clear|R:clear|goal_left|goal_mid_far": [
+    -1.0878668975134729,
+    -1.3623844734842332,
+    -1.062841253778236,
+    -1.1469497857569848,
+    -1.14899837408119,
+    -1.3828776997640118
+  ],
+  "F:blocked|FL:near|FR:near|L:clear|R:clear|goal_right|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.46499999999999997
+  ],
+  "F:blocked|FL:near|FR:near|L:clear|R:clear|goal_right|goal_mid_far": [
+    -2.8994550397920853,
+    -2.842767788923198,
+    -2.960000620847172,
+    -3.196052293864562,
+    -3.0269555309953637,
+    -3.053172241010272
+  ],
+  "F:blocked|FL:near|FR:near|L:clear|R:near|goal_behind|goal_far": [
+    0.0,
+    0.0,
+    -0.48,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:near|FR:near|L:clear|R:near|goal_front|goal_far": [
+    -0.9536650258362023,
+    -0.46069006823287806,
+    -0.48,
+    -0.3764234943847102,
+    -0.602177821788932,
+    -0.3631152953108165
+  ],
+  "F:blocked|FL:near|FR:near|L:clear|R:near|goal_right|goal_mid_far": [
+    0.0,
+    -0.6034982349216342,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:near|FR:near|L:near|R:clear|goal_behind|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.918,
+    0.0
+  ],
+  "F:blocked|FL:near|FR:near|L:near|R:clear|goal_front|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    -0.38718610561585737,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:near|FR:near|L:near|R:clear|goal_right|goal_far": [
+    0.0,
+    -0.48,
+    0.0,
+    -0.46499999999999997,
+    0.0,
+    0.0
+  ],
+  "F:blocked|FL:near|FR:near|L:near|R:clear|goal_right|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    -0.3810354065678256,
+    0.0,
+    0.0
+  ],
+  "F:clear|FL:blocked|FR:clear|L:blocked|R:clear|goal_behind|goal_mid_far": [
+    -0.26597024999999996,
+    -0.26629453976135314,
+    -0.28174042839424873,
+    -0.29904614999999996,
+    -0.307096346476125,
+    -0.33150361774411247
+  ],
+  "F:clear|FL:blocked|FR:clear|L:blocked|R:clear|goal_front|goal_far": [
+    0.25997816481580954,
+    0.0,
+    0.3518054421773443,
+    0.2710755416127282,
+    1.4008390268243835,
+    0.31933853597729145
+  ],
+  "F:clear|FL:blocked|FR:clear|L:blocked|R:clear|goal_front|goal_mid_far": [
+    -145.4264413031351,
+    -68.8027785479279,
+    2.380616311693585,
+    2.2637722830014058,
+    -144.52907814828706,
+    2.3192977930738716
+  ],
+  "F:clear|FL:blocked|FR:clear|L:blocked|R:clear|goal_left|goal_far": [
+    -149.21916224382989,
+    0.5702672160083802,
+    -72.88717158466117,
+    -50.64165023687799,
+    0.6409043227514478,
+    -104.22780384726781
+  ],
+  "F:clear|FL:blocked|FR:clear|L:blocked|R:clear|goal_left|goal_mid_far": [
+    -149.34269943477358,
+    -0.008728012903955503,
+    0.0,
+    -149.87144966516863,
+    2.5829627633892915,
+    -104.08863665411602
+  ],
+  "F:clear|FL:blocked|FR:clear|L:blocked|R:clear|goal_right|goal_far": [
+    0.5464279485612769,
+    -50.96227179145595,
+    0.05794149908839173,
+    0.34733992379051015,
+    0.6292487819829202,
+    -35.21715697015348
+  ],
+  "F:clear|FL:blocked|FR:clear|L:blocked|R:clear|goal_right|goal_mid_far": [
+    0.0,
+    0.0,
+    0.3590653886365396,
+    0.0,
+    0.0,
+    0.14841646261826832
+  ],
+  "F:clear|FL:blocked|FR:clear|L:near|R:clear|goal_behind|goal_mid_far": [
+    -0.17864999999999998,
+    -0.1507340845125,
+    -0.14556699526875,
+    -0.153,
+    -0.16544873311968403,
+    -0.17525174999999998
+  ],
+  "F:clear|FL:blocked|FR:clear|L:near|R:clear|goal_front|goal_far": [
+    0.41224665952749484,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:clear|FL:blocked|FR:clear|L:near|R:clear|goal_front|goal_mid_far": [
+    0.9129656164271636,
+    1.057841967794075,
+    1.3216280328766876,
+    0.0,
+    2.5915128628834125,
+    0.10017888959427047
+  ],
+  "F:clear|FL:blocked|FR:clear|L:near|R:clear|goal_left|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.3861485086240713,
+    0.0
+  ],
+  "F:clear|FL:blocked|FR:clear|L:near|R:clear|goal_left|goal_mid_far": [
+    0.0,
+    2.6412608712726113,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:clear|FL:blocked|FR:clear|L:near|R:clear|goal_right|goal_far": [
+    0.40140227279650775,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:clear|FL:clear|FR:blocked|L:clear|R:blocked|goal_behind|goal_far": [
+    -0.3099403395,
+    -0.09052500000000001,
+    -0.10550025,
+    -0.17484524999999998,
+    -0.36823654125,
+    -0.17864999999999998
+  ],
+  "F:clear|FL:clear|FR:blocked|L:clear|R:blocked|goal_front|goal_far": [
+    3.0019988713119328,
+    3.183495957590347,
+    -5.889061651597681,
+    2.843864389058915,
+    -101.84790774724428,
+    2.1901598757054757
+  ],
+  "F:clear|FL:clear|FR:blocked|L:clear|R:blocked|goal_front|goal_mid_far": [
+    0.19004528044511695,
+    0.1594391985542208,
+    0.1896068780952446,
+    0.6763999526459673,
+    0.0,
+    0.0
+  ],
+  "F:clear|FL:clear|FR:blocked|L:clear|R:blocked|goal_left|goal_far": [
+    -148.74977520603272,
+    1.3287307622618367,
+    -0.6211793196524386,
+    -148.8961385780837,
+    -50.88526831067617,
+    -24.534519453732205
+  ],
+  "F:clear|FL:clear|FR:blocked|L:clear|R:blocked|goal_right|goal_far": [
+    0.10451702614825278,
+    0.0,
+    0.1376406914003271,
+    0.041095249758025705,
+    0.16020039561572075,
+    -101.95591930922885
+  ],
+  "F:clear|FL:clear|FR:blocked|L:clear|R:blocked|goal_right|goal_mid_far": [
+    -51.1364652622791,
+    0.545767565218162,
+    0.04082394276327676,
+    -149.52012628764095,
+    0.1444511518355952,
+    0.39441345862959903
+  ],
+  "F:clear|FL:clear|FR:blocked|L:clear|R:near|goal_front|goal_far": [
+    1.4234899012104067,
+    0.909242445065824,
+    0.9312741221340504,
+    1.1730522467109399,
+    0.8901089215842682,
+    3.890145566290858
+  ],
+  "F:clear|FL:clear|FR:blocked|L:clear|R:near|goal_front|goal_mid_far": [
+    0.648211749139805,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:clear|FL:clear|FR:blocked|L:clear|R:near|goal_left|goal_far": [
+    0.7814879852485488,
+    -0.008226063425278126,
+    -0.008521790516721525,
+    0.1430908186498291,
+    0.34609157252414113,
+    -0.002593280166818094
+  ],
+  "F:clear|FL:clear|FR:blocked|L:clear|R:near|goal_right|goal_far": [
+    0.0,
+    -0.10242613465055712,
+    0.7854716681385665,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:clear|FL:clear|FR:blocked|L:clear|R:near|goal_right|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.16212214510378084,
+    0.0881309634144291,
+    0.4774908601758544
+  ],
+  "F:clear|FL:clear|FR:clear|L:blocked|R:clear|goal_behind|goal_mid_far": [
+    -0.203085,
+    -0.12272290887604995,
+    -0.08865675,
+    -0.09,
+    -0.16997174999999998,
+    -0.09
+  ],
+  "F:clear|FL:clear|FR:clear|L:blocked|R:clear|goal_front|goal_far": [
+    0.24431845981103367,
+    0.735063883412826,
+    0.5105770413260605,
+    0.5729028643597679,
+    5.022428221781991,
+    0.6880691526496299
+  ],
+  "F:clear|FL:clear|FR:clear|L:blocked|R:clear|goal_front|goal_mid_far": [
+    0.9374514692488893,
+    0.39539504322906677,
+    0.6984874694831515,
+    0.0,
+    4.094475505866329,
+    0.9673100960563916
+  ],
+  "F:clear|FL:clear|FR:clear|L:blocked|R:clear|goal_left|goal_far": [
+    0.3424864587734858,
+    0.6409161890636164,
+    0.13396184082437634,
+    1.5119167015942538,
+    0.13578510873716826,
+    0.09927807166133543
+  ],
+  "F:clear|FL:clear|FR:clear|L:blocked|R:clear|goal_left|goal_mid_far": [
+    0.0,
+    0.0,
+    5.664724447339869,
+    0.33559976546319015,
+    0.47183287652934036,
+    1.02723198176668
+  ],
+  "F:clear|FL:clear|FR:clear|L:blocked|R:clear|goal_right|goal_far": [
+    0.007842796327681225,
+    0.0202827591599503,
+    0.0,
+    -0.006472063270473786,
+    1.3680846539025817,
+    0.008826266474632525
+  ],
+  "F:clear|FL:clear|FR:clear|L:blocked|R:clear|goal_right|goal_mid_far": [
+    -149.25352254578297,
+    0.4468018560841628,
+    0.0,
+    0.05134019650556411,
+    0.27291979815643563,
+    0.0
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:blocked|goal_front|goal_far": [
+    0.0,
+    -0.0013243496963849175,
+    0.2135653502581926,
+    4.751435454223985,
+    0.17646478627245998,
+    1.4923101531133178
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:blocked|goal_left|goal_far": [
+    0.0,
+    0.08659370021243945,
+    0.019383159770518386,
+    1.9004467763397095,
+    0.21967329891297194,
+    0.023194849422403362
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:blocked|goal_left|goal_mid_far": [
+    0.09841100033570487,
+    0.021818787226231675,
+    0.0,
+    0.019750495600748166,
+    0.0,
+    0.028894752459399445
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:blocked|goal_right|goal_far": [
+    3.243700324210881,
+    0.0,
+    6.018688980848113,
+    0.0868102389547515,
+    2.8079787783606345,
+    3.603360491486242
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:blocked|goal_right|goal_mid_far": [
+    0.17831491873647434,
+    0.20345815943598128,
+    0.9384038654810636,
+    0.0,
+    0.11115957358259947,
+    0.0
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:clear|goal_behind|goal_far": [
+    -0.43747554780459014,
+    1.1250816683633553,
+    -0.4481787537169245,
+    -0.43478095001795763,
+    -0.5855365780942914,
+    -0.5221707917607136
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:clear|goal_behind|goal_medium": [
+    7.875610717135305,
+    19.81888025040337,
+    7.6316654455751145,
+    8.11924484000357,
+    7.474082601558943,
+    8.858576913941668
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:clear|goal_behind|goal_mid_far": [
+    1.048916292872791,
+    5.6320868738795005,
+    -0.874223673656543,
+    -0.31086056101879167,
+    -0.9425354533259284,
+    2.274663795501044
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:clear|goal_front|goal_far": [
+    15.989106515667398,
+    8.145703522520185,
+    8.210122410728392,
+    8.186367722931259,
+    8.266246244530814,
+    8.22785835326539
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:clear|goal_front|goal_medium": [
+    245.36981728680166,
+    42.794774703555994,
+    83.87854844098568,
+    71.00441220178296,
+    43.243807063621176,
+    64.4492291495183
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:clear|goal_front|goal_mid_far": [
+    22.502650729665053,
+    9.743647799876072,
+    9.733574304958793,
+    9.579184499308692,
+    26.18945018885779,
+    9.669165865163368
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:clear|goal_left|goal_far": [
+    3.921015869768715,
+    3.9008576908701325,
+    5.098664184206293,
+    8.888880423472271,
+    3.9277726103069144,
+    2.939465172655207
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:clear|goal_left|goal_medium": [
+    68.44970416673986,
+    36.30999405133193,
+    60.165082876822225,
+    105.53106216460597,
+    36.09582925151069,
+    36.273671774960484
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:clear|goal_left|goal_mid_far": [
+    5.522340250732409,
+    10.660255748806396,
+    5.493248777300806,
+    7.129431714074427,
+    5.4817686330935,
+    5.514976087728593
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:clear|goal_right|goal_far": [
+    6.612920828149424,
+    3.1748835546924736,
+    8.06990337143425,
+    5.64184067134722,
+    5.748863730911638,
+    5.771335072360472
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:clear|goal_right|goal_medium": [
+    48.707239897649785,
+    51.023624529737475,
+    36.471655644948875,
+    47.27240331280571,
+    53.270017110360904,
+    22.59692570069164
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:clear|goal_right|goal_mid_far": [
+    10.45003274818934,
+    9.685625264509705,
+    9.629045740861669,
+    10.718201884327625,
+    23.38702935920983,
+    9.633326202942307
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:near|goal_behind|goal_far": [
+    -0.4047910054306326,
+    -0.32304758699136427,
+    -0.26045619333881753,
+    -0.44251545228584643,
+    -0.2643945267001915,
+    -0.2307713495830206
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:near|goal_behind|goal_mid_far": [
+    -0.4512026951608179,
+    -0.26507367363204404,
+    -0.2267501473346598,
+    -0.3149575104018513,
+    -0.22285089,
+    -0.34093561527381955
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:near|goal_front|goal_far": [
+    10.109465537149429,
+    8.309674602230597,
+    8.175760970780487,
+    7.735441619769224,
+    7.777790102157986,
+    8.227690650984652
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:near|goal_front|goal_mid_far": [
+    4.414187607599285,
+    10.093402708227044,
+    5.791076317120952,
+    5.2928001708042185,
+    2.6103176112812907,
+    2.569132570502331
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:near|goal_left|goal_far": [
+    4.100685970822308,
+    14.038666314048635,
+    2.2338840666588444,
+    8.394973895417838,
+    2.3722311528433475,
+    1.959407664044369
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:near|goal_left|goal_mid_far": [
+    1.9798718815034553,
+    1.0514315970689545,
+    1.9456007856986894,
+    36.58284121441821,
+    0.9774247116831103,
+    1.161223886117436
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:near|goal_right|goal_far": [
+    7.49606902739934,
+    5.8617160728928805,
+    6.202734359865897,
+    6.270653219978248,
+    6.009524697634135,
+    5.757059608420434
+  ],
+  "F:clear|FL:clear|FR:clear|L:clear|R:near|goal_right|goal_mid_far": [
+    2.5188565503979263,
+    2.6832121646274434,
+    6.242911811462829,
+    26.910147565205076,
+    2.579150379563967,
+    4.627768289888642
+  ],
+  "F:clear|FL:clear|FR:clear|L:near|R:clear|goal_behind|goal_far": [
+    -0.3365058125640365,
+    -0.14556699526875,
+    -0.23161766527659372,
+    -0.25654159365159374,
+    -0.16357984304516895,
+    0.2239284096882143
+  ],
+  "F:clear|FL:clear|FR:clear|L:near|R:clear|goal_behind|goal_mid_far": [
+    -0.35198069624999995,
+    -0.29314627601517,
+    -0.2914778995292328,
+    -0.32709442499999997,
+    -0.43731137085578786,
+    -0.3129645791907042
+  ],
+  "F:clear|FL:clear|FR:clear|L:near|R:clear|goal_front|goal_far": [
+    8.9025984596044,
+    6.902023938594149,
+    7.306291236442945,
+    6.627953494188282,
+    7.0801787184966996,
+    7.402570249040986
+  ],
+  "F:clear|FL:clear|FR:clear|L:near|R:clear|goal_front|goal_mid_far": [
+    8.809263387876399,
+    7.473695220683636,
+    7.480021661790165,
+    7.503598520795519,
+    7.491456803089918,
+    7.509663998472143
+  ],
+  "F:clear|FL:clear|FR:clear|L:near|R:clear|goal_left|goal_far": [
+    4.849033110628967,
+    2.038071676568588,
+    1.980049102333509,
+    2.460890912291678,
+    2.119737405652091,
+    2.5305187686561426
+  ],
+  "F:clear|FL:clear|FR:clear|L:near|R:clear|goal_left|goal_mid_far": [
+    8.479283918010784,
+    6.514054991579497,
+    5.421080573611389,
+    6.680401556209767,
+    6.652363406877317,
+    5.901907411011777
+  ],
+  "F:clear|FL:clear|FR:clear|L:near|R:clear|goal_right|goal_far": [
+    4.487123496838305,
+    4.544805305260269,
+    7.033230272914299,
+    2.2561839007806683,
+    2.3104123426533265,
+    2.405046275254153
+  ],
+  "F:clear|FL:clear|FR:clear|L:near|R:clear|goal_right|goal_medium": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    14.277391715595714
+  ],
+  "F:clear|FL:clear|FR:clear|L:near|R:clear|goal_right|goal_mid_far": [
+    4.358439814734408,
+    2.26035769147627,
+    10.280718192957984,
+    3.456719036278678,
+    2.128787356404235,
+    1.7270147151494135
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:blocked|goal_behind|goal_far": [
+    -0.33500564437499997,
+    -0.1312285485,
+    -0.15600389140874998,
+    -0.153,
+    -0.3567325906125,
+    -0.2928198375
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:blocked|goal_front|goal_far": [
+    5.165402419629583,
+    3.8817875013847356,
+    4.8772007052250075,
+    5.608105882844366,
+    5.092061003326622,
+    4.313692449907828
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:blocked|goal_front|goal_mid_far": [
+    0.1713499978512416,
+    0.27833314460055436,
+    0.304367771909573,
+    0.0,
+    0.8765859103855501,
+    0.49224268137847316
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:blocked|goal_left|goal_far": [
+    0.19809659491469467,
+    0.2634111822767259,
+    0.24243124354360307,
+    0.5702854120642358,
+    0.03352132999921226,
+    0.21586985342372034
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:blocked|goal_left|goal_mid_far": [
+    -0.060001589638083316,
+    -0.05955,
+    -0.0585217587501588,
+    -0.058663449375,
+    -0.04472505915181043,
+    -0.06707655255894275
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:blocked|goal_right|goal_far": [
+    1.3117183763502407,
+    2.219116102446296,
+    1.6190550965656598,
+    5.885531231441097,
+    3.322252235061599,
+    2.126358348734108
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:blocked|goal_right|goal_mid_far": [
+    2.774900229935871,
+    0.564262642932236,
+    0.0,
+    0.22451299048379403,
+    0.3558897332775392,
+    1.028178957710122
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:clear|goal_behind|goal_far": [
+    -0.2630527748511586,
+    0.1842382514889858,
+    -0.10060972500000001,
+    -0.3845623491065789,
+    0.17748946386299222,
+    0.07941580657368175
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:clear|goal_behind|goal_medium": [
+    -0.09,
+    -0.03,
+    2.476787251387917,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:clear|goal_front|goal_far": [
+    7.991920191889653,
+    7.99196854048417,
+    8.105324724959553,
+    8.414634912431653,
+    8.014459253493941,
+    8.154686662535692
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:clear|goal_front|goal_mid_far": [
+    1.527785026487411,
+    0.7503737659292686,
+    10.035212376405873,
+    1.5360907494811462,
+    3.8332434206050108,
+    1.13370597013529
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:clear|goal_left|goal_far": [
+    5.026798070468957,
+    2.1978437751781126,
+    1.9713358940332,
+    2.29069029752138,
+    1.3081601574314137,
+    2.437371200498023
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:clear|goal_left|goal_mid_far": [
+    0.0,
+    0.0,
+    2.2463490072749837,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:clear|goal_right|goal_far": [
+    0.48539235447086515,
+    4.251021104958346,
+    0.2861349622376914,
+    0.6350587352786488,
+    0.7761862705988376,
+    0.6033937603521551
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:clear|goal_right|goal_mid_far": [
+    0.7688681816238554,
+    1.4281861308931638,
+    0.39597836661116603,
+    0.9832480753463594,
+    2.255726633989118,
+    9.676946836487083
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:near|goal_behind|goal_far": [
+    -0.8111378660627557,
+    -0.7815196709347295,
+    -0.7926900706160915,
+    -0.8735425486600534,
+    -0.8849572111885561,
+    -0.9546272602524306
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:near|goal_behind|goal_medium": [
+    -0.09,
+    -0.0801795,
+    -0.09728327324155732,
+    -0.09,
+    -0.09,
+    -0.09
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:near|goal_behind|goal_mid_far": [
+    -0.1705305611774187,
+    -0.19550216902535386,
+    -0.19026569957257783,
+    -0.223605,
+    -0.23832925866091598,
+    -0.19320337499999996
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:near|goal_front|goal_far": [
+    6.893657335017699,
+    6.464703913639354,
+    6.812611521980737,
+    7.698158075142907,
+    7.341019720450416,
+    6.2799443836151445
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:near|goal_front|goal_mid_far": [
+    3.0365160676403926,
+    3.874493642409523,
+    0.9832396740793575,
+    2.4787534720154576,
+    2.1387375073947705,
+    0.9893950403888675
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:near|goal_left|goal_far": [
+    3.1199283486047054,
+    2.8248147929197334,
+    3.398048816115984,
+    3.8640033902563826,
+    3.107179696483575,
+    2.8917251103528643
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:near|goal_left|goal_mid_far": [
+    -0.10049999999999999,
+    0.7359647405753378,
+    -0.090157860819375,
+    -0.09,
+    -0.13795968592847355,
+    -0.09
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:near|goal_right|goal_far": [
+    0.2746033253340902,
+    1.3592688740019083,
+    3.509699041151193,
+    3.350372622258647,
+    6.489619204700479,
+    1.8179175970362698
+  ],
+  "F:clear|FL:clear|FR:near|L:clear|R:near|goal_right|goal_mid_far": [
+    2.188536246014709,
+    2.6264038616030705,
+    3.290667806775115,
+    1.8269869373778787,
+    2.4275818201240744,
+    1.1941328432032645
+  ],
+  "F:clear|FL:near|FR:clear|L:blocked|R:clear|goal_behind|goal_mid_far": [
+    -0.421340690064375,
+    -0.3995814684974789,
+    -0.429983119564167,
+    -0.43241412560758474,
+    -0.4535394080450625,
+    -0.48085315942968165
+  ],
+  "F:clear|FL:near|FR:clear|L:blocked|R:clear|goal_front|goal_far": [
+    0.3684410100407129,
+    0.2924160457586138,
+    0.0,
+    0.02346313165131576,
+    0.0,
+    1.8723238973328864
+  ],
+  "F:clear|FL:near|FR:clear|L:blocked|R:clear|goal_front|goal_mid_far": [
+    4.39997275380701,
+    4.261890205070451,
+    5.299717501705883,
+    4.321870724285289,
+    5.966247032614322,
+    4.319166644007041
+  ],
+  "F:clear|FL:near|FR:clear|L:blocked|R:clear|goal_left|goal_far": [
+    1.960967598953794,
+    0.9229948588018084,
+    0.6581174585659164,
+    0.6478171862628661,
+    0.9406064258392864,
+    0.8155771821302837
+  ],
+  "F:clear|FL:near|FR:clear|L:blocked|R:clear|goal_left|goal_mid_far": [
+    0.358776663481299,
+    1.9347710983429964,
+    4.285050498345722,
+    0.06408513524040473,
+    1.23365943814837,
+    0.4004892186237873
+  ],
+  "F:clear|FL:near|FR:clear|L:blocked|R:clear|goal_right|goal_far": [
+    0.4715108137490699,
+    0.1750837378164129,
+    0.29475481327078534,
+    0.08928948491965867,
+    0.2353386928870324,
+    0.0
+  ],
+  "F:clear|FL:near|FR:clear|L:clear|R:clear|goal_behind|goal_far": [
+    -0.09,
+    -0.022879982972788492,
+    -0.03,
+    -0.16155,
+    -0.1848816384276655,
+    0.0
+  ],
+  "F:clear|FL:near|FR:clear|L:clear|R:clear|goal_behind|goal_mid_far": [
+    -0.17826717375,
+    -0.11073792267467847,
+    -0.11732689875,
+    -0.153,
+    -0.153,
+    -0.16997174999999998
+  ],
+  "F:clear|FL:near|FR:clear|L:clear|R:clear|goal_front|goal_far": [
+    7.878476476502421,
+    6.13572223768418,
+    4.233556406407687,
+    4.447070275110547,
+    6.163716227431028,
+    4.264443848495913
+  ],
+  "F:clear|FL:near|FR:clear|L:clear|R:clear|goal_front|goal_mid_far": [
+    9.25731332315623,
+    8.4118264948308,
+    8.34267729981392,
+    13.589488002164929,
+    8.604846660612045,
+    9.128567085366626
+  ],
+  "F:clear|FL:near|FR:clear|L:clear|R:clear|goal_left|goal_far": [
+    5.418153057585543,
+    2.619175206964564,
+    3.348645422282948,
+    1.2359157449936178,
+    2.59971553535909,
+    1.0197425441829053
+  ],
+  "F:clear|FL:near|FR:clear|L:clear|R:clear|goal_left|goal_mid_far": [
+    0.23844943288001716,
+    5.51390926978256,
+    0.0,
+    0.1020453089239196,
+    0.28532846079387697,
+    0.2640700464382459
+  ],
+  "F:clear|FL:near|FR:clear|L:clear|R:clear|goal_right|goal_far": [
+    4.068675855193938,
+    1.9519908494443268,
+    6.801019690158778,
+    2.295021968419114,
+    2.637198492311498,
+    3.1982701042392536
+  ],
+  "F:clear|FL:near|FR:clear|L:clear|R:clear|goal_right|goal_mid_far": [
+    1.182965234396622,
+    0.4888864699980141,
+    2.2310223551504316,
+    1.9835941812989217,
+    0.6269139884587743,
+    0.0
+  ],
+  "F:clear|FL:near|FR:clear|L:clear|R:near|goal_right|goal_far": [
+    0.0,
+    0.0,
+    -0.03,
+    -0.015,
+    -0.015,
+    -0.003122493016125621
+  ],
+  "F:clear|FL:near|FR:clear|L:near|R:clear|goal_behind|goal_mid_far": [
+    -0.4980029961358969,
+    -0.43861360178314884,
+    -0.43516990712727105,
+    -0.44596939279677467,
+    -0.4727512725044315,
+    -0.31255383425635125
+  ],
+  "F:clear|FL:near|FR:clear|L:near|R:clear|goal_front|goal_far": [
+    6.7508744994916015,
+    6.311298076742979,
+    7.071798838591029,
+    7.214513918544977,
+    6.917410258764469,
+    5.985362506187252
+  ],
+  "F:clear|FL:near|FR:clear|L:near|R:clear|goal_front|goal_mid_far": [
+    6.6675365993386615,
+    6.749882433293437,
+    6.788831395357379,
+    7.015269405153234,
+    6.597030460410213,
+    6.756816760166138
+  ],
+  "F:clear|FL:near|FR:clear|L:near|R:clear|goal_left|goal_far": [
+    2.883691867636876,
+    1.2938671483301931,
+    1.0843429038257069,
+    1.37308993747456,
+    1.447751125321266,
+    1.4402826939024014
+  ],
+  "F:clear|FL:near|FR:clear|L:near|R:clear|goal_left|goal_mid_far": [
+    5.280359350385515,
+    4.189430970179744,
+    3.392760645230835,
+    0.0,
+    3.210122837244291,
+    4.336412169281181
+  ],
+  "F:clear|FL:near|FR:clear|L:near|R:clear|goal_right|goal_far": [
+    1.7064156559830443,
+    3.2555669801818983,
+    1.6380886934921395,
+    1.6926042634401515,
+    7.252081085095678,
+    2.7988734220040627
+  ],
+  "F:clear|FL:near|FR:clear|L:near|R:clear|goal_right|goal_mid_far": [
+    0.4427270769364726,
+    1.1462618680056507,
+    5.08501064626589,
+    1.8899622558089004,
+    0.7001152032438215,
+    0.7284704506058562
+  ],
+  "F:near|FL:blocked|FR:clear|L:blocked|R:clear|goal_behind|goal_mid_far": [
+    -0.12710821592649374,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.09855
+  ],
+  "F:near|FL:blocked|FR:clear|L:blocked|R:clear|goal_front|goal_far": [
+    0.1648139472397754,
+    -0.10418044416557498,
+    -0.11908780856012453,
+    -0.08728427521840793,
+    0.5320147217256663,
+    0.19269562202879498
+  ],
+  "F:near|FL:blocked|FR:clear|L:blocked|R:clear|goal_front|goal_mid_far": [
+    -147.08509321241374,
+    0.4033331528602855,
+    1.905186911404194,
+    -147.9163624560339,
+    -71.41166883591396,
+    -148.427632985432
+  ],
+  "F:near|FL:blocked|FR:clear|L:blocked|R:clear|goal_left|goal_far": [
+    -1.483275828559339,
+    -0.924644048458044,
+    -1.6499031764640877,
+    -0.45144498890521656,
+    -0.43922381004318395,
+    -0.3734014038760468
+  ],
+  "F:near|FL:blocked|FR:clear|L:blocked|R:clear|goal_left|goal_mid_far": [
+    0.05668036842251808,
+    0.0,
+    0.9319915073809577,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:blocked|FR:clear|L:blocked|R:clear|goal_right|goal_far": [
+    -0.8418740875869313,
+    -1.2533350637883256,
+    -0.5387020173094308,
+    -0.4360696085909268,
+    -0.3994302646046436,
+    0.27863409482420953
+  ],
+  "F:near|FL:blocked|FR:clear|L:blocked|R:clear|goal_right|goal_mid_far": [
+    -0.5803555745729597,
+    -0.8531157221439267,
+    -1.5318624644601384,
+    -0.9542235143222909,
+    -0.5894478505276685,
+    -0.7513066081767945
+  ],
+  "F:near|FL:blocked|FR:clear|L:clear|R:clear|goal_front|goal_mid_far": [
+    0.0,
+    -1.8126415032922198,
+    0.0,
+    -1.2631087971043118,
+    -0.8023843731892908,
+    -2.2748190109716835
+  ],
+  "F:near|FL:blocked|FR:clear|L:clear|R:clear|goal_left|goal_mid_far": [
+    -0.16926204805835315,
+    -0.3919226075966758,
+    -0.45833166659180113,
+    -0.6215947398074053,
+    -0.4318697715434771,
+    -0.37185501290391726
+  ],
+  "F:near|FL:blocked|FR:clear|L:clear|R:clear|goal_right|goal_mid_far": [
+    -0.31092941436679444,
+    -1.2604558011803078,
+    -1.025432915003419,
+    -0.7335665460642636,
+    -0.3770793703621164,
+    -0.4072658567325577
+  ],
+  "F:near|FL:blocked|FR:clear|L:near|R:clear|goal_front|goal_mid_far": [
+    -0.02320448657373486,
+    -0.028560237346664352,
+    1.1657358707640462,
+    1.3141429540717149,
+    3.1998396870105164,
+    1.4744801374123433
+  ],
+  "F:near|FL:blocked|FR:clear|L:near|R:clear|goal_left|goal_far": [
+    -0.4122824360485639,
+    -0.9489456224057049,
+    -0.3919720723876453,
+    -0.6552291870252296,
+    -0.7034959885306964,
+    -0.4310579103133671
+  ],
+  "F:near|FL:blocked|FR:clear|L:near|R:clear|goal_left|goal_mid_far": [
+    0.0,
+    0.0,
+    -0.19364849656042055,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:blocked|FR:clear|L:near|R:clear|goal_right|goal_far": [
+    -0.4568926740770464,
+    -0.7293494649002065,
+    -0.5327352932590201,
+    -0.49772053968227653,
+    -0.14505380187150105,
+    -0.6746288861774921
+  ],
+  "F:near|FL:blocked|FR:clear|L:near|R:clear|goal_right|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.05467866155692448,
+    0.0,
+    -0.3850972239573769
+  ],
+  "F:near|FL:blocked|FR:near|L:blocked|R:clear|goal_behind|goal_mid_far": [
+    0.0,
+    -0.07378880558906671,
+    -0.10580152124999997,
+    -0.09,
+    -0.11564999999999998,
+    -0.09
+  ],
+  "F:near|FL:blocked|FR:near|L:blocked|R:clear|goal_front|goal_far": [
+    0.08072827903217356,
+    0.0,
+    0.023567030542320306,
+    0.9137959645650713,
+    0.0,
+    -0.3295885679397191
+  ],
+  "F:near|FL:blocked|FR:near|L:blocked|R:clear|goal_front|goal_mid_far": [
+    1.4377455924724551,
+    1.7112449635195817,
+    1.7131809456398703,
+    2.000517756186892,
+    -149.89990865781428,
+    2.5238503450997127
+  ],
+  "F:near|FL:blocked|FR:near|L:blocked|R:clear|goal_left|goal_far": [
+    -0.1441186058235666,
+    -0.33099199244945565,
+    0.0,
+    0.16676282011859758,
+    0.0,
+    0.4812841062398528
+  ],
+  "F:near|FL:blocked|FR:near|L:blocked|R:clear|goal_left|goal_mid_far": [
+    0.0,
+    -0.3711117186059692,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:blocked|FR:near|L:blocked|R:clear|goal_right|goal_far": [
+    0.0,
+    -0.281735981444325,
+    0.35213969851977545,
+    -0.06009651453607524,
+    -0.020823406347166902,
+    -0.02850835730231225
+  ],
+  "F:near|FL:blocked|FR:near|L:blocked|R:clear|goal_right|goal_mid_far": [
+    -0.23617739508111998,
+    0.0,
+    0.0,
+    -0.2066937170744031,
+    0.0,
+    -0.39466962869562233
+  ],
+  "F:near|FL:blocked|FR:near|L:clear|R:clear|goal_front|goal_far": [
+    0.0,
+    -0.8465753577679918,
+    -0.33184128750601577,
+    -0.542181692604622,
+    -1.105160014362535,
+    0.0
+  ],
+  "F:near|FL:blocked|FR:near|L:clear|R:clear|goal_front|goal_mid_far": [
+    0.0,
+    0.0,
+    -2.259350771786979,
+    -0.3971997028118041,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:blocked|FR:near|L:clear|R:clear|goal_left|goal_far": [
+    -0.8600628839560004,
+    -1.0279303469818617,
+    0.0,
+    -0.3899375826239792,
+    -0.23764431818104,
+    0.0
+  ],
+  "F:near|FL:blocked|FR:near|L:clear|R:clear|goal_right|goal_mid_far": [
+    0.0,
+    -0.24401307983226958,
+    -0.43939525658556594,
+    -1.2241664288145695,
+    -0.4121432345927298,
+    -0.7383050403567097
+  ],
+  "F:near|FL:blocked|FR:near|L:near|R:clear|goal_behind|goal_far": [
+    -0.54,
+    0.0,
+    0.0,
+    -0.54,
+    -1.0766816574749998,
+    0.0
+  ],
+  "F:near|FL:blocked|FR:near|L:near|R:clear|goal_behind|goal_mid_far": [
+    -0.11526717375,
+    0.0,
+    -0.48,
+    -0.54,
+    -0.09855,
+    -0.54
+  ],
+  "F:near|FL:blocked|FR:near|L:near|R:clear|goal_front|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    2.6837168934259465,
+    0.21921517717430716,
+    0.07300581319278715
+  ],
+  "F:near|FL:blocked|FR:near|L:near|R:clear|goal_left|goal_far": [
+    -0.5590609798080064,
+    0.0,
+    0.0,
+    0.0,
+    -0.015784553475192867,
+    -0.4026012397205145
+  ],
+  "F:near|FL:blocked|FR:near|L:near|R:clear|goal_left|goal_mid_far": [
+    0.0,
+    0.0,
+    2.425916179415309,
+    0.0,
+    0.0,
+    -0.4091755100944642
+  ],
+  "F:near|FL:blocked|FR:near|L:near|R:clear|goal_right|goal_far": [
+    -0.4187512609439887,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:blocked|FR:near|L:near|R:clear|goal_right|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    -0.6175601178514456,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:clear|FR:blocked|L:clear|R:blocked|goal_behind|goal_far": [
+    -2.2278515619445725,
+    -2.3085822581694124,
+    -1.8588893983162111,
+    -1.8435578680466889,
+    -2.3444104923689117,
+    -1.8962659630680874
+  ],
+  "F:near|FL:clear|FR:blocked|L:clear|R:blocked|goal_front|goal_far": [
+    1.2319053244281124,
+    3.7250384340607625,
+    0.96948343172864,
+    1.653333483506254,
+    0.22966041806519444,
+    -49.12920806236508
+  ],
+  "F:near|FL:clear|FR:blocked|L:clear|R:blocked|goal_front|goal_mid_far": [
+    0.06516672418897007,
+    0.1615599517970266,
+    -0.6233352449971655,
+    0.581135835276514,
+    0.14457322259158803,
+    0.13685740258852905
+  ],
+  "F:near|FL:clear|FR:blocked|L:clear|R:blocked|goal_left|goal_far": [
+    0.039757476360282984,
+    1.0448444549065221,
+    -0.20862099850029409,
+    -0.7927100385050129,
+    -0.370333435078224,
+    -0.09060762758318819
+  ],
+  "F:near|FL:clear|FR:blocked|L:clear|R:blocked|goal_right|goal_far": [
+    0.0,
+    0.0,
+    -0.7547699418175697,
+    -0.5476697329282403,
+    -0.8031283468764172,
+    0.0
+  ],
+  "F:near|FL:clear|FR:blocked|L:clear|R:clear|goal_front|goal_far": [
+    -0.21270242014981733,
+    0.013513356571246218,
+    0.06894837123753937,
+    -0.25647423316454543,
+    0.074596486003324,
+    -0.04869955665004616
+  ],
+  "F:near|FL:clear|FR:blocked|L:clear|R:clear|goal_left|goal_far": [
+    -0.34362548485799,
+    -0.3930778970252676,
+    -0.6301999101126368,
+    -0.301620200128297,
+    -0.32064935978364356,
+    0.0
+  ],
+  "F:near|FL:clear|FR:blocked|L:clear|R:clear|goal_right|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    -0.38243213632807044,
+    -0.43023546747470237,
+    0.0
+  ],
+  "F:near|FL:clear|FR:blocked|L:clear|R:clear|goal_right|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.37057521382568676,
+    -1.272204642019655
+  ],
+  "F:near|FL:clear|FR:blocked|L:clear|R:near|goal_behind|goal_far": [
+    -0.54,
+    -0.48,
+    -0.501,
+    0.0,
+    -0.54,
+    -0.54
+  ],
+  "F:near|FL:clear|FR:blocked|L:clear|R:near|goal_front|goal_far": [
+    0.19642232885733601,
+    0.43714499819495123,
+    0.0,
+    2.8157007553230113,
+    0.0,
+    0.14607384798221784
+  ],
+  "F:near|FL:clear|FR:blocked|L:clear|R:near|goal_front|goal_mid_far": [
+    0.159283037305986,
+    0.20396123608509487,
+    0.0,
+    0.6244135408578901,
+    0.36659363688558483,
+    0.1733628475075632
+  ],
+  "F:near|FL:clear|FR:blocked|L:clear|R:near|goal_left|goal_far": [
+    0.0,
+    0.23568026653312568,
+    0.3793121606557174,
+    0.7698692821948369,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:clear|FR:blocked|L:clear|R:near|goal_right|goal_far": [
+    -0.4158113302139485,
+    -0.7536554619696629,
+    -0.4605361113439126,
+    -0.9292020914059799,
+    -0.5729617264647913,
+    0.05429315357685904
+  ],
+  "F:near|FL:clear|FR:blocked|L:clear|R:near|goal_right|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    -0.35647470443287704,
+    0.30971311317898526,
+    0.0
+  ],
+  "F:near|FL:clear|FR:clear|L:blocked|R:clear|goal_behind|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    -0.09855,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:clear|FR:clear|L:blocked|R:clear|goal_front|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.4300035422630269
+  ],
+  "F:near|FL:clear|FR:clear|L:blocked|R:clear|goal_front|goal_mid_far": [
+    0.0,
+    -0.03,
+    0.0,
+    0.4102910973334566,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:clear|FR:clear|L:blocked|R:clear|goal_left|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    2.091942989286464,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:clear|FR:clear|L:blocked|R:clear|goal_right|goal_far": [
+    0.012058063068466286,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:blocked|goal_front|goal_far": [
+    1.4199940611587283,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:blocked|goal_left|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.12123117905400521,
+    0.0
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:blocked|goal_left|goal_mid_far": [
+    0.013492063166743814,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:blocked|goal_right|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    2.596780701160844,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:blocked|goal_right|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.04168790825346903,
+    0.0,
+    0.04815058065872876
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:clear|goal_behind|goal_far": [
+    -0.3995371075526546,
+    -0.34402256392994307,
+    -0.34206531038610577,
+    -0.3620637644129332,
+    -0.3187990538864309,
+    -0.38416141888008504
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:clear|goal_behind|goal_medium": [
+    2.497327540405204,
+    6.308526784067059,
+    5.327648775193156,
+    3.3832655037343367,
+    7.9329812056412905,
+    10.792671400457943
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:clear|goal_behind|goal_mid_far": [
+    2.0030275629883048,
+    -0.8337017891521586,
+    -0.8248801845319613,
+    -0.8445294741400615,
+    -0.8511446973196591,
+    -0.8252137635263911
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:clear|goal_front|goal_far": [
+    8.545478270007846,
+    8.51712959348511,
+    8.481666689816265,
+    7.752679260778966,
+    8.563124884749708,
+    7.882007633660104
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:clear|goal_front|goal_medium": [
+    49.169032464790234,
+    46.50707947701753,
+    45.07101038412385,
+    81.21092304898362,
+    46.972702558723405,
+    38.238663691061966
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:clear|goal_front|goal_mid_far": [
+    9.538671753357974,
+    10.310004602558859,
+    9.918911577268522,
+    12.017233901425884,
+    10.088943879970765,
+    10.190608753486538
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:clear|goal_left|goal_far": [
+    5.098096505141039,
+    4.937180111196028,
+    5.044661589181844,
+    4.999129413997465,
+    4.978925357558518,
+    4.956991703558231
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:clear|goal_left|goal_medium": [
+    42.49505887186231,
+    39.31974862462719,
+    38.049990001727686,
+    25.225106724962064,
+    37.77907082549868,
+    41.13502374663468
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:clear|goal_left|goal_mid_far": [
+    6.3366117063745,
+    5.529233852487051,
+    5.9934113748344515,
+    3.837829287812455,
+    4.8583760395071875,
+    7.898832555507787
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:clear|goal_right|goal_far": [
+    5.360741910724054,
+    5.47195106710051,
+    5.404976328374673,
+    5.384314742034207,
+    7.296209573496542,
+    5.440884157971175
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:clear|goal_right|goal_medium": [
+    32.91178192523137,
+    31.530880403480026,
+    60.07992877423251,
+    31.871299992056834,
+    32.45576204692076,
+    26.977365937599583
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:clear|goal_right|goal_mid_far": [
+    8.350220815804292,
+    5.5621761751026195,
+    7.241556394827218,
+    6.710220110695399,
+    10.420238929321284,
+    7.3195738127373
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:near|goal_behind|goal_far": [
+    0.0,
+    -0.03,
+    -0.0839395346048853,
+    -0.015,
+    -0.14161599074100212,
+    0.0
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:near|goal_behind|goal_mid_far": [
+    0.0,
+    -0.03,
+    -0.09564390535978765,
+    0.0,
+    -0.112866975,
+    -0.167535
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:near|goal_front|goal_far": [
+    5.424995148873009,
+    6.036883552621531,
+    6.223248306803511,
+    5.485165972308556,
+    8.715120059248225,
+    7.006437844405931
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:near|goal_front|goal_mid_far": [
+    0.0,
+    12.261692787648764,
+    0.0,
+    0.0,
+    0.0,
+    3.123108948595081
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:near|goal_left|goal_far": [
+    0.16868268701587524,
+    3.5203380372902093,
+    0.1321685262024581,
+    0.6310609783613848,
+    0.05592810129627955,
+    0.0
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:near|goal_left|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    5.9933424619100775,
+    0.0,
+    0.04491468597297993
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:near|goal_right|goal_far": [
+    2.0043861498888687,
+    6.761567161550849,
+    1.814051500437852,
+    1.1304961834191538,
+    2.200361914577999,
+    1.353175463313472
+  ],
+  "F:near|FL:clear|FR:clear|L:clear|R:near|goal_right|goal_mid_far": [
+    4.518207101753948,
+    0.693088589479987,
+    0.0,
+    1.460125576679064,
+    0.0,
+    3.4129304086713046
+  ],
+  "F:near|FL:clear|FR:clear|L:near|R:clear|goal_behind|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.09,
+    0.0
+  ],
+  "F:near|FL:clear|FR:clear|L:near|R:clear|goal_behind|goal_mid_far": [
+    -0.10453499999999999,
+    -0.03,
+    -0.10611682789790314,
+    -0.14132535770359483,
+    0.0,
+    -0.09
+  ],
+  "F:near|FL:clear|FR:clear|L:near|R:clear|goal_front|goal_far": [
+    3.6627214399448547,
+    4.259862439209228,
+    0.0,
+    6.855736683461122,
+    2.182118172857968,
+    0.0
+  ],
+  "F:near|FL:clear|FR:clear|L:near|R:clear|goal_front|goal_mid_far": [
+    1.911748088447879,
+    5.23164396398379,
+    6.862040754107508,
+    8.166879825579626,
+    4.602374976561077,
+    4.508535013630239
+  ],
+  "F:near|FL:clear|FR:clear|L:near|R:clear|goal_left|goal_far": [
+    1.0784689038353976,
+    1.540128769505058,
+    0.18544292518867894,
+    0.7096190753003315,
+    -0.012267800311624468,
+    -0.0003017338582830195
+  ],
+  "F:near|FL:clear|FR:clear|L:near|R:clear|goal_left|goal_mid_far": [
+    0.0,
+    6.158769765427116,
+    0.3463900404413494,
+    0.0,
+    0.15512333097475053,
+    5.08599147037567
+  ],
+  "F:near|FL:clear|FR:clear|L:near|R:clear|goal_right|goal_far": [
+    2.274874697808127,
+    0.715971004416751,
+    0.0,
+    0.04752501234357407,
+    0.24443302585803026,
+    0.1132009675015005
+  ],
+  "F:near|FL:clear|FR:clear|L:near|R:clear|goal_right|goal_mid_far": [
+    0.0,
+    0.15116766872444706,
+    0.0,
+    1.10381973381961,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:clear|FR:near|L:blocked|R:clear|goal_behind|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.10697174999999999
+  ],
+  "F:near|FL:clear|FR:near|L:blocked|R:clear|goal_front|goal_mid_far": [
+    0.0,
+    0.0,
+    0.5062562970890865,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:blocked|goal_behind|goal_far": [
+    -0.2118901585047364,
+    0.0,
+    0.0,
+    0.0,
+    -0.12505688249999997,
+    -0.24693089624999998
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:blocked|goal_front|goal_far": [
+    4.7970950032192405,
+    1.1580654998991384,
+    1.5214201431460743,
+    0.34885983069998744,
+    0.7788569804682922,
+    1.9271345999279372
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:blocked|goal_front|goal_mid_far": [
+    0.0,
+    0.04057554494797814,
+    0.0,
+    0.0,
+    0.0,
+    0.5062128420166301
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:blocked|goal_left|goal_far": [
+    0.0,
+    0.09017340948243054,
+    0.033421636749707974,
+    0.07096262434489795,
+    0.4329467275989241,
+    0.0
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:blocked|goal_left|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.01516074429542527
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:blocked|goal_right|goal_far": [
+    0.02701131603548802,
+    0.0,
+    3.644499288991495,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:blocked|goal_right|goal_mid_far": [
+    0.11183067618949195,
+    0.0,
+    0.0,
+    0.07234401243901502,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:clear|goal_behind|goal_far": [
+    0.41497489945084926,
+    -0.3504553134135739,
+    0.10935789379817418,
+    -0.14414068230744395,
+    -0.11208414936487915,
+    -0.4015437091251033
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:clear|goal_behind|goal_medium": [
+    2.0127566721868915,
+    10.067155021948151,
+    0.0,
+    2.0861563300437505,
+    -0.118030606425,
+    3.653124233847165
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:clear|goal_behind|goal_mid_far": [
+    -0.1811983031683356,
+    1.5532193423914054,
+    0.16749907555505117,
+    0.31369008277760696,
+    -0.17784227213374929,
+    -0.044328375
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:clear|goal_front|goal_far": [
+    6.025960511301783,
+    8.783192609344963,
+    6.43539600068593,
+    6.959804944414854,
+    4.719671467444847,
+    6.7219941247257715
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:clear|goal_front|goal_medium": [
+    0.0,
+    0.0,
+    12.872332168895774,
+    70.54150107481043,
+    14.817117173266585,
+    0.0
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:clear|goal_front|goal_mid_far": [
+    7.599328108244029,
+    7.812337634277321,
+    9.210610831761901,
+    9.490521053915607,
+    11.91058711601561,
+    9.210465860583035
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:clear|goal_left|goal_far": [
+    2.877744359127706,
+    5.444306866255259,
+    3.9074398063262037,
+    2.8219225213436903,
+    4.2885871668315545,
+    2.869182238785233
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:clear|goal_left|goal_medium": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    49.128115757082824
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:clear|goal_left|goal_mid_far": [
+    0.1889231217191553,
+    0.0,
+    1.341231632343676,
+    1.4243768494136384,
+    0.0,
+    9.78806302028322
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:clear|goal_right|goal_far": [
+    2.3739750918304847,
+    3.2120474338005085,
+    6.476196078306733,
+    3.528763216884021,
+    3.3568360738642316,
+    4.122390630764726
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:clear|goal_right|goal_medium": [
+    40.62946144041922,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    21.680337979672718
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:clear|goal_right|goal_mid_far": [
+    3.5434473491674505,
+    5.605903478096841,
+    9.740760063799067,
+    4.949520687859243,
+    6.628571463278966,
+    6.583287110994245
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:near|goal_behind|goal_far": [
+    -0.9582243846245743,
+    -0.8471749055858904,
+    -0.6147703416719985,
+    -1.0087903603406614,
+    -0.8873240335480627,
+    -0.9561746814798562
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:near|goal_behind|goal_medium": [
+    -0.17864999999999998,
+    -0.1175709274239797,
+    -0.12225314281651531,
+    -0.17864999999999998,
+    -0.17864999999999998,
+    -0.11511749999999998
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:near|goal_behind|goal_mid_far": [
+    -0.6500925,
+    -0.20091584235914756,
+    -0.23402695716394473,
+    -0.34931060115705825,
+    -0.2794235452061863,
+    -0.2368228261169436
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:near|goal_front|goal_far": [
+    5.582237361337451,
+    7.528846275037376,
+    -11.798053608961744,
+    2.6188159170982814,
+    5.1763733244531895,
+    4.622279999627702
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:near|goal_front|goal_mid_far": [
+    4.165198517371117,
+    1.44537203945421,
+    0.17220536893345106,
+    0.2549982033997,
+    -0.03555518612990749,
+    1.0934373950810996
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:near|goal_left|goal_far": [
+    3.1812168620605634,
+    3.8815498213241515,
+    3.8343970587770757,
+    3.8240214888473707,
+    2.5008917783197155,
+    3.660225990779887
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:near|goal_left|goal_medium": [
+    -0.015,
+    0.0,
+    -0.03,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:near|goal_left|goal_mid_far": [
+    -0.195460995,
+    -0.1320648,
+    0.7906297004148277,
+    -0.1694469765666447,
+    -0.1490936325,
+    -0.11666273512612499
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:near|goal_right|goal_far": [
+    1.083017837111196,
+    0.0,
+    0.8760416830543901,
+    0.8390320945275618,
+    4.750079923487417,
+    1.5735282314121108
+  ],
+  "F:near|FL:clear|FR:near|L:clear|R:near|goal_right|goal_mid_far": [
+    1.2268573390146504,
+    -0.32012697051316547,
+    0.24144647498832128,
+    3.499547638867389,
+    0.8452031244921829,
+    -0.0045138942710025165
+  ],
+  "F:near|FL:clear|FR:near|L:near|R:clear|goal_behind|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    -0.1809131219363366,
+    -0.1498032304183805,
+    0.0
+  ],
+  "F:near|FL:clear|FR:near|L:near|R:clear|goal_front|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    3.8382817459532053,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:clear|FR:near|L:near|R:clear|goal_front|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.137011644416209,
+    6.342789767909322
+  ],
+  "F:near|FL:clear|FR:near|L:near|R:clear|goal_left|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.703571314999964,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:clear|FR:near|L:near|R:clear|goal_left|goal_mid_far": [
+    0.0,
+    0.0,
+    4.490980794134405,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:blocked|L:clear|R:blocked|goal_behind|goal_far": [
+    -0.31638444332160925,
+    -0.18731462469187496,
+    -0.20482204124999998,
+    -0.181851975,
+    -0.2387568825,
+    -0.25526313845549264
+  ],
+  "F:near|FL:near|FR:blocked|L:clear|R:blocked|goal_front|goal_far": [
+    1.6695564237279126,
+    3.2442067168957003,
+    0.3862357620628404,
+    1.3965925807910602,
+    1.2757662076338694,
+    1.0586023552430057
+  ],
+  "F:near|FL:near|FR:blocked|L:clear|R:blocked|goal_front|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.7267955284971717,
+    0.13034650900297204,
+    0.0
+  ],
+  "F:near|FL:near|FR:blocked|L:clear|R:blocked|goal_left|goal_far": [
+    0.15321592186814145,
+    -149.72027077334496,
+    0.02852723447065964,
+    -0.14890906308729757,
+    0.6314271578586468,
+    0.0950869089444688
+  ],
+  "F:near|FL:near|FR:blocked|L:clear|R:blocked|goal_right|goal_far": [
+    1.712906910327948,
+    0.0,
+    -0.41352890326047587,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:blocked|L:clear|R:blocked|goal_right|goal_mid_far": [
+    0.0,
+    0.011053707162311213,
+    0.0,
+    0.032779153643039675,
+    0.0,
+    0.17499611917444066
+  ],
+  "F:near|FL:near|FR:blocked|L:clear|R:clear|goal_behind|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    -0.54
+  ],
+  "F:near|FL:near|FR:blocked|L:clear|R:clear|goal_front|goal_far": [
+    0.0,
+    0.01732541626333719,
+    0.0,
+    0.0,
+    0.2519157793624256,
+    0.0
+  ],
+  "F:near|FL:near|FR:blocked|L:clear|R:clear|goal_left|goal_far": [
+    0.0,
+    -0.5626652788980443,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:blocked|L:clear|R:clear|goal_right|goal_far": [
+    -0.46499999999999997,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:blocked|L:clear|R:near|goal_behind|goal_far": [
+    -1.03305969,
+    -0.6168,
+    0.0,
+    -0.77256,
+    -0.840618,
+    -1.146361516429124
+  ],
+  "F:near|FL:near|FR:blocked|L:clear|R:near|goal_behind|goal_mid_far": [
+    0.0,
+    -0.48,
+    0.0,
+    0.0,
+    0.0,
+    -0.54
+  ],
+  "F:near|FL:near|FR:blocked|L:clear|R:near|goal_front|goal_far": [
+    0.943949019691071,
+    0.4403640061940751,
+    0.04380162628646941,
+    2.6735488807817243,
+    0.0,
+    0.6045173990473005
+  ],
+  "F:near|FL:near|FR:blocked|L:clear|R:near|goal_front|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.12125795311786354,
+    0.0
+  ],
+  "F:near|FL:near|FR:blocked|L:clear|R:near|goal_left|goal_far": [
+    -0.4030238229564629,
+    -0.08961647671142224,
+    -0.6311855794167124,
+    -0.6902836580195166,
+    -0.4269157200456101,
+    -0.46499999999999997
+  ],
+  "F:near|FL:near|FR:blocked|L:clear|R:near|goal_right|goal_far": [
+    0.0,
+    -0.4607033578041029,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:blocked|L:clear|R:near|goal_right|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0932047414401423,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:blocked|L:near|R:blocked|goal_left|goal_far": [
+    -0.0058504452980381,
+    -0.02511523907461798,
+    -0.03468668287218207,
+    0.024647277390276064,
+    -0.20045688584529145,
+    -0.3411530322349292
+  ],
+  "F:near|FL:near|FR:clear|L:blocked|R:clear|goal_behind|goal_mid_far": [
+    0.0,
+    0.0,
+    -0.10580152124999997,
+    -0.185870148901875,
+    -0.15290584187037462,
+    0.0
+  ],
+  "F:near|FL:near|FR:clear|L:blocked|R:clear|goal_front|goal_far": [
+    0.4959312372827488,
+    0.0,
+    0.011415331471348383,
+    0.0,
+    0.0,
+    0.14569487189259198
+  ],
+  "F:near|FL:near|FR:clear|L:blocked|R:clear|goal_front|goal_mid_far": [
+    2.4098188564198315,
+    0.6292293422645706,
+    1.117760752568999,
+    2.3667358948116393,
+    5.298063546104336,
+    0.3503711416532901
+  ],
+  "F:near|FL:near|FR:clear|L:blocked|R:clear|goal_left|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.3357856585706923,
+    0.0,
+    0.08699288812335097
+  ],
+  "F:near|FL:near|FR:clear|L:blocked|R:clear|goal_left|goal_mid_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.2348478969908228
+  ],
+  "F:near|FL:near|FR:clear|L:blocked|R:clear|goal_right|goal_far": [
+    0.0,
+    0.0,
+    0.0,
+    0.011392335520977709,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:clear|L:blocked|R:clear|goal_right|goal_mid_far": [
+    0.1671533232061588,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:clear|L:clear|R:blocked|goal_front|goal_far": [
+    0.0,
+    0.0,
+    0.20206365866881038,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:clear|L:clear|R:clear|goal_behind|goal_far": [
+    -0.342158441643281,
+    -0.3018656313232313,
+    -0.27282042687142766,
+    -0.2506761941134484,
+    -0.48712538889453066,
+    -0.23217298437259032
+  ],
+  "F:near|FL:near|FR:clear|L:clear|R:clear|goal_behind|goal_medium": [
+    0.0,
+    9.609985879601119,
+    9.058973338109508,
+    -0.11306725269911905,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:clear|L:clear|R:clear|goal_behind|goal_mid_far": [
+    -0.3514640468697043,
+    1.7732015175787441,
+    -0.4295157068306389,
+    -0.37359426067801643,
+    -0.4653821848781968,
+    -0.4266967531463439
+  ],
+  "F:near|FL:near|FR:clear|L:clear|R:clear|goal_front|goal_far": [
+    8.11889064289039,
+    8.264934793847416,
+    7.990426535266835,
+    8.07870171761341,
+    8.115839117039757,
+    8.069162121558497
+  ],
+  "F:near|FL:near|FR:clear|L:clear|R:clear|goal_front|goal_medium": [
+    13.171609008603111,
+    103.91519055381286,
+    12.95587173758123,
+    47.272696638264726,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:clear|L:clear|R:clear|goal_front|goal_mid_far": [
+    3.694483902641923,
+    5.369924704628286,
+    6.89837069170855,
+    7.348074996130728,
+    6.049896927353764,
+    7.333994382213913
+  ],
+  "F:near|FL:near|FR:clear|L:clear|R:clear|goal_left|goal_far": [
+    3.9431338986550686,
+    7.740035729058058,
+    5.062755924345734,
+    4.938438397860604,
+    4.034653550891441,
+    4.616783735773769
+  ],
+  "F:near|FL:near|FR:clear|L:clear|R:clear|goal_left|goal_medium": [
+    0.0,
+    0.0,
+    0.0,
+    25.404800077629368,
+    22.8306944463866,
+    59.200037846472114
+  ],
+  "F:near|FL:near|FR:clear|L:clear|R:clear|goal_left|goal_mid_far": [
+    3.585983486574576,
+    0.9978940115012165,
+    0.5932977124986955,
+    7.696140815627083,
+    0.0,
+    2.1201571170720817
+  ],
+  "F:near|FL:near|FR:clear|L:clear|R:clear|goal_right|goal_far": [
+    4.914805525135598,
+    4.545199252362482,
+    4.930086082314964,
+    4.135617499133135,
+    4.703942315489395,
+    5.195611365413548
+  ],
+  "F:near|FL:near|FR:clear|L:clear|R:clear|goal_right|goal_medium": [
+    0.0,
+    50.27825816710927,
+    29.36231325598463,
+    23.875457892686686,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:clear|L:clear|R:clear|goal_right|goal_mid_far": [
+    4.840438793990622,
+    10.355094331949692,
+    8.1584051859941,
+    5.332938816066474,
+    5.224454571140535,
+    5.742923922276168
+  ],
+  "F:near|FL:near|FR:clear|L:clear|R:near|goal_front|goal_far": [
+    1.6066319849084663,
+    0.0,
+    0.0,
+    6.7343265460544846,
+    0.0,
+    1.5777815105930046
+  ],
+  "F:near|FL:near|FR:clear|L:clear|R:near|goal_left|goal_far": [
+    0.0,
+    0.6475782222290769,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:clear|L:clear|R:near|goal_right|goal_far": [
+    0.0,
+    0.0,
+    -0.03,
+    0.0,
+    4.065392479205953,
+    0.0
+  ],
+  "F:near|FL:near|FR:clear|L:clear|R:near|goal_right|goal_mid_far": [
+    0.22596923890100348,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:clear|L:near|R:clear|goal_behind|goal_far": [
+    -0.25415363436917826,
+    -0.12381054355240254,
+    -0.3259078745091862,
+    -0.348143304069375,
+    0.5024897885483177,
+    -0.34284785300920306
+  ],
+  "F:near|FL:near|FR:clear|L:near|R:clear|goal_behind|goal_mid_far": [
+    -0.332437035819375,
+    -0.6013684432378031,
+    -0.615335062831875,
+    -0.32728107571250636,
+    -0.3365869354265893,
+    -0.4200520630928678
+  ],
+  "F:near|FL:near|FR:clear|L:near|R:clear|goal_front|goal_far": [
+    3.253499823467366,
+    0.5405676650266447,
+    6.15751339169423,
+    2.251170305900441,
+    1.805965016729212,
+    2.0300481450694448
+  ],
+  "F:near|FL:near|FR:clear|L:near|R:clear|goal_front|goal_mid_far": [
+    4.158107422640986,
+    6.200470371372109,
+    5.67472946156226,
+    5.756211228323733,
+    5.729678206759375,
+    4.41006516776118
+  ],
+  "F:near|FL:near|FR:clear|L:near|R:clear|goal_left|goal_far": [
+    0.7464250895683436,
+    2.975721040728549,
+    1.6048895115596102,
+    0.40049485342649327,
+    1.3573405824258102,
+    1.992192881252571
+  ],
+  "F:near|FL:near|FR:clear|L:near|R:clear|goal_left|goal_mid_far": [
+    0.0,
+    5.095261576109619,
+    0.0,
+    0.0,
+    0.0,
+    2.2950098417397555
+  ],
+  "F:near|FL:near|FR:clear|L:near|R:clear|goal_right|goal_far": [
+    1.3608743560118979,
+    1.4805701205789883,
+    4.6139413829480596,
+    1.3433693758351752,
+    0.6986670446444316,
+    0.968209327273988
+  ],
+  "F:near|FL:near|FR:clear|L:near|R:clear|goal_right|goal_mid_far": [
+    0.6286035768751232,
+    1.0723243848220203,
+    0.1560979697758635,
+    2.2046613029558664,
+    0.0,
+    0.8451477064803253
+  ],
+  "F:near|FL:near|FR:near|L:blocked|R:clear|goal_behind|goal_mid_far": [
+    -0.09855,
+    -0.052866975,
+    0.0,
+    -0.17074774541249998,
+    -0.09,
+    -0.09
+  ],
+  "F:near|FL:near|FR:near|L:blocked|R:clear|goal_front|goal_far": [
+    1.0707074245532768,
+    0.31264376215380585,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:near|L:blocked|R:clear|goal_front|goal_mid_far": [
+    3.349834631458477,
+    1.6475656344153207,
+    2.1185117280198855,
+    0.4464672881978077,
+    5.2427775284274665,
+    2.2851963439368923
+  ],
+  "F:near|FL:near|FR:near|L:blocked|R:clear|goal_left|goal_far": [
+    0.0,
+    0.6818037878502705,
+    0.0,
+    0.17152514842106573,
+    0.42904103999773696,
+    0.20467197029767398
+  ],
+  "F:near|FL:near|FR:near|L:blocked|R:clear|goal_left|goal_mid_far": [
+    4.325296184950394,
+    0.0,
+    0.0,
+    0.040016572983943136,
+    0.32609815601951453,
+    0.0
+  ],
+  "F:near|FL:near|FR:near|L:blocked|R:clear|goal_right|goal_far": [
+    0.08842130364115304,
+    0.0,
+    0.0,
+    0.132550835552699,
+    0.19014203704587512,
+    0.06747124086806215
+  ],
+  "F:near|FL:near|FR:near|L:blocked|R:clear|goal_right|goal_mid_far": [
+    0.018512233422305468,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:blocked|goal_behind|goal_far": [
+    -0.09,
+    -0.044535,
+    -0.08840013632249999,
+    0.0,
+    0.0,
+    -0.153
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:blocked|goal_front|goal_far": [
+    2.6815832959896646,
+    0.8095828363822473,
+    2.887520330694569,
+    2.283049818509477,
+    5.301558139696253,
+    2.7894919572526407
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:blocked|goal_front|goal_mid_far": [
+    0.0,
+    0.49852829185827846,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:blocked|goal_left|goal_far": [
+    0.13689660153664782,
+    0.06759306325443898,
+    0.2917344649100108,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:blocked|goal_left|goal_mid_far": [
+    0.0,
+    -0.027526819343332086,
+    -0.03,
+    0.0011223987235241747,
+    0.01752767506204176,
+    0.0
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:blocked|goal_right|goal_far": [
+    1.302469860863926,
+    5.487961015418266,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:blocked|goal_right|goal_mid_far": [
+    0.03734478046460976,
+    0.001509735104028992,
+    0.015226991124382316,
+    1.6419286965316702,
+    0.017518144925276712,
+    0.007385678512857077
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:clear|goal_behind|goal_far": [
+    -0.44474781273949887,
+    -0.35192701819428784,
+    -0.3958183650012602,
+    -0.4320230962835165,
+    -0.38394183089344835,
+    -0.39795170617178904
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:clear|goal_behind|goal_medium": [
+    10.785038515217915,
+    8.81848584388211,
+    8.585758394339205,
+    8.253808365238452,
+    9.904779180406795,
+    8.922466199261915
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:clear|goal_behind|goal_mid_far": [
+    -0.8593577939408715,
+    -1.0674556574224343,
+    4.858267065357415,
+    -0.8465525924177051,
+    -1.0002203551659639,
+    -0.16617280927018552
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:clear|goal_front|goal_far": [
+    8.524562538595742,
+    7.6964279482508795,
+    6.784575830652102,
+    5.627585545509541,
+    7.579497881580297,
+    7.644633504828142
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:clear|goal_front|goal_medium": [
+    42.095960880977245,
+    158.97887524260125,
+    39.90462896701301,
+    41.73084893012342,
+    44.40565764679751,
+    34.930637728006296
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:clear|goal_front|goal_mid_far": [
+    6.842405592423736,
+    7.565583377685982,
+    13.06895152154958,
+    7.200232291090854,
+    7.106841695206419,
+    5.369466189049738
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:clear|goal_left|goal_far": [
+    4.509481068480856,
+    7.6851027110920365,
+    4.407714930362811,
+    4.461231907158018,
+    4.4744908760458255,
+    3.1133019769708126
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:clear|goal_left|goal_medium": [
+    39.766268247506574,
+    39.60294598733376,
+    37.05656343829976,
+    39.62822432630844,
+    35.29218905936675,
+    40.10105921674943
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:clear|goal_left|goal_mid_far": [
+    5.18352324952688,
+    3.144733214850982,
+    5.184783058701898,
+    4.231076441735748,
+    9.855915295976923,
+    3.3388972860324304
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:clear|goal_right|goal_far": [
+    5.085744029866391,
+    5.017892956430982,
+    4.985465704025455,
+    4.972089054975906,
+    7.949484717347744,
+    5.123930276975809
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:clear|goal_right|goal_medium": [
+    43.44011277025866,
+    39.28586554362789,
+    53.35757878244258,
+    33.76715674020872,
+    33.251360711294986,
+    34.112413495136224
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:clear|goal_right|goal_mid_far": [
+    6.027328966188158,
+    5.8390170143364495,
+    10.026445372097392,
+    2.6761341632087228,
+    7.7580941575081805,
+    6.704098632327843
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:near|goal_behind|goal_far": [
+    -1.0276293353562997,
+    -0.9180608508163935,
+    -0.8142615802132847,
+    -1.484611899410096,
+    -0.9729675085084181,
+    -0.9951789741078365
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:near|goal_behind|goal_medium": [
+    -0.09,
+    -0.03,
+    -0.03,
+    0.0,
+    0.0,
+    -0.015
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:near|goal_behind|goal_mid_far": [
+    -0.7159702499999999,
+    -0.6530142850550749,
+    -0.6392525723716894,
+    -0.7359079350446736,
+    -0.7159702499999999,
+    -0.6924027530561155
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:near|goal_front|goal_far": [
+    4.585073157817822,
+    6.835035466454047,
+    7.408622287615289,
+    8.50152749313735,
+    5.64347974625147,
+    6.936742302611592
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:near|goal_front|goal_mid_far": [
+    0.0,
+    1.838021382403598,
+    0.38125995860093975,
+    8.016625398590124,
+    0.0,
+    0.17922900822030993
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:near|goal_left|goal_far": [
+    2.5222612515921274,
+    1.4721822965893034,
+    1.5444896728862822,
+    5.358088941049333,
+    2.5676031711060814,
+    2.774945437293999
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:near|goal_left|goal_mid_far": [
+    -0.09,
+    0.06798931509073577,
+    0.07638795815761114,
+    0.028562137392635856,
+    0.07084127525434762,
+    1.414970818161256
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:near|goal_right|goal_far": [
+    3.5427683746049894,
+    6.500010617726355,
+    5.055032353895415,
+    3.9971133171433353,
+    4.834579575572813,
+    2.6685733535156055
+  ],
+  "F:near|FL:near|FR:near|L:clear|R:near|goal_right|goal_mid_far": [
+    22.215878576252152,
+    1.3567727032970787,
+    1.7510364005005403,
+    0.03899160416277127,
+    1.6215162788423385,
+    1.1004722634609458
+  ],
+  "F:near|FL:near|FR:near|L:near|R:clear|goal_behind|goal_far": [
+    -1.282794971625,
+    -0.5298260611566348,
+    -1.2529397961235462,
+    -1.4386643594100406,
+    -1.5441749160355986,
+    -1.1824470058196372
+  ],
+  "F:near|FL:near|FR:near|L:near|R:clear|goal_behind|goal_mid_far": [
+    -0.4009586379182977,
+    -0.35392935949096316,
+    -0.3712639862731669,
+    -0.33612648805611556,
+    -0.3698813475,
+    -0.4246011416432735
+  ],
+  "F:near|FL:near|FR:near|L:near|R:clear|goal_front|goal_far": [
+    4.88993906503196,
+    6.001178089396995,
+    4.240873952091869,
+    8.123241221758956,
+    3.3152244010851377,
+    6.1369897065904215
+  ],
+  "F:near|FL:near|FR:near|L:near|R:clear|goal_front|goal_mid_far": [
+    7.535131887826311,
+    7.597602234295478,
+    7.3955862080713155,
+    7.616490763534108,
+    7.638408016151214,
+    7.268336868736495
+  ],
+  "F:near|FL:near|FR:near|L:near|R:clear|goal_left|goal_far": [
+    2.716540528344647,
+    0.577587299176813,
+    0.7257561077595808,
+    0.8777288669492397,
+    0.8280792223777719,
+    0.7529759008124306
+  ],
+  "F:near|FL:near|FR:near|L:near|R:clear|goal_left|goal_mid_far": [
+    7.178371341055399,
+    1.2735811953130496,
+    2.163264358643978,
+    -0.3145409493018566,
+    2.34181889999514,
+    2.7046931962714105
+  ],
+  "F:near|FL:near|FR:near|L:near|R:clear|goal_right|goal_far": [
+    1.0914232811509075,
+    1.1502384601006121,
+    2.2763356759069673,
+    6.501555367132205,
+    1.0308573658970892,
+    1.0917763980973318
+  ],
+  "F:near|FL:near|FR:near|L:near|R:clear|goal_right|goal_mid_far": [
+    3.4978225371730742,
+    0.677031550729501,
+    0.04706217624116549,
+    1.841372200153442,
+    1.5961002980734977,
+    0.46745351611432406
+  ]
+}

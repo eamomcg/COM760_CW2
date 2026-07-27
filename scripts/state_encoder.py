@@ -25,11 +25,13 @@ class StateEncoder:
                  blocked_distance=0.45,
                  near_distance=1.00,
                  goal_close_distance=0.60,
-                 goal_medium_distance=2.50):
+                 goal_medium_distance=2.50,
+                 goal_far_distance=8.00):
         self.blocked_distance = blocked_distance
         self.near_distance = near_distance
         self.goal_close_distance = goal_close_distance
         self.goal_medium_distance = goal_medium_distance
+        self.goal_far_distance = goal_far_distance
 
         # Sectors are in degrees, relative to the laser frame.
         # Positive degrees usually point to the left side of the robot.
@@ -116,6 +118,8 @@ class StateEncoder:
             return "goal_close"
         if distance <= self.goal_medium_distance:
             return "goal_medium"
+        if distance <= self.goal_far_distance:
+            return "goal_mid_far"
         return "goal_far"
 
     def encode(self, scan_msg, robot_x, robot_y, robot_yaw, goal_x, goal_y):

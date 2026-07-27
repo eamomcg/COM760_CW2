@@ -45,7 +45,8 @@ class QLearningNode:
         rospy.init_node("q_learning_delivery_node")
 
         self.package_name = rospy.get_param("~package_name", "com760cw2_group34")
-
+        self.randomize_positions = bool(self.param("randomize_positions", False))
+        self.waypoints = self.param("waypoints", [])
         self.cmd_vel_topic = self.param("cmd_vel_topic", "/group34Bot/cmd_vel")
         self.scan_topic = self.param("scan_topic", "/group34Bot/laser/scan")
         self.odom_topic = self.param("odom_topic", "/odom")
@@ -87,6 +88,7 @@ class QLearningNode:
             near_distance=float(self.param("near_distance", 1.00)),
             goal_close_distance=float(self.param("goal_close_distance", 0.60)),
             goal_medium_distance=float(self.param("goal_medium_distance", 2.50)),
+            goal_far_distance=float(self.param("goal_far_distance", 8.00)),
         )
         self.action_executor = ActionExecutor(
             linear_speed=float(self.param("linear_speed", 0.20)),
@@ -215,6 +217,18 @@ class QLearningNode:
             rospy.logwarn("Could not call reset service %s: %s", self.reset_service_name, exc)
             return False
 
+
+    def maybe_randomize_goal(self):
+        if self.randomize_positions and self.waypoints:
+            candidates = [wp for wp in self.waypoints
+                          if not (math.isclose(float(wp["x"]), self.robot_x, abs_tol=1.0)
+                                  and math.isclose(float(wp["y"]), self.robot_y, abs_tol=1.0))]
+            if not candidates:
+                candidates = self.waypoints
+            wp = random.choice(candidates)
+            self.goal_x = float(wp["x"])
+            self.goal_y = float(wp["y"])
+
     def save_q_table(self):
         os.makedirs(os.path.dirname(self.q_table_path), exist_ok=True)
         with open(self.q_table_path, "w") as f:
@@ -236,7 +250,7 @@ class QLearningNode:
 
     def run_episode(self, episode):
         self.reset_episode()
-        # Wait a moment for the physics engine to stabilize after reset
+        self.maybe_randomize_goal()
         rospy.sleep(0.5)
         
         state_key, state_id, state_info = self.get_state()
@@ -266,7 +280,13 @@ class QLearningNode:
             )
 
             # --- GRACE PERIOD OVERRIDE ---
-            if step <= grace_steps:
+            # During spawn/reset settling, the lidar or odometry can report a
+            # spurious collision. Suppress not just the collision/done flags
+            # but also the reward: reward_manager.compute() already applied
+            # the full collision_penalty before we get here, so without this
+            # the reward is still counted even though we're ignoring the event.
+            if step <= grace_steps and collision:
+                reward = self.reward_manager.step_penalty
                 collision = False
                 done = False
             # -----------------------------

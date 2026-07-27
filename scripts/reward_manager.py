@@ -61,17 +61,26 @@ class RewardManager:
         # Dense Reward Shaping / Breadcrumb logic:
         # Measures direct continuous progression toward the target goal.
         progress = previous_distance_to_goal - current_distance
-        if progress > 0.0:
+
+        is_turning_action = action_id in [1, 2]
+        progress_deadzone = 0.002  # ignore noise-level distance change during pure rotation
+
+        if progress > progress_deadzone:
+            # Reward any meaningful movement toward the goal.
             reward += progress * self.progress_reward_scale
-        else:
+
+        elif progress < -progress_deadzone and not is_turning_action:
+            # Penalise only genuine movement away from the goal.
             reward += self.moved_away_penalty
+
+        # Near-zero movement receives only the normal step/action penalty.
 
         # Obstacle proximity check
         if front_distance < self.near_obstacle_distance:
             reward += self.near_obstacle_penalty
 
         # Action penalty for turning/spinning (encourages efficient driving)
-        if action_id in [1, 2]:
+        if is_turning_action:
             reward += self.turn_penalty
 
         return reward, False, False, False

@@ -1,0 +1,63 @@
+# Compact-map parameters for small_city_training.world
+
+cmd_vel_topic: "/group34Bot/cmd_vel"
+scan_topic: "/group34Bot/laser/scan"
+odom_topic: "/odom"
+status_topic: "/group34Bot/q_learning_status"
+reset_service: "/group34Bot/reset_episode"
+
+robot_model_name: "group34Bot"
+
+# Fixed curriculum stage: east side to west side.
+start_x: 8.0
+start_y: 0.0
+start_z: 0.01
+start_yaw: 3.14159
+goal_x: -8.0
+goal_y: 0.0
+goal_tolerance: 1.25
+
+# 0.99 reaches approximately 0.05 after 300 episodes.
+max_episodes: 20
+max_steps_per_episode: 1000
+control_rate_hz: 10.0
+alpha: 0.0
+gamma: 0.95
+epsilon: 0.0
+epsilon_min: 0.0
+epsilon_decay: 1.0
+
+blocked_distance: 0.55
+near_distance: 1.10
+goal_close_distance: 0.90
+goal_medium_distance: 3.50
+goal_far_distance: 8.00
+
+# Slower than the full-city setting so the robot has more sensor/action
+# updates before reaching an obstacle.
+linear_speed: 0.30
+angular_speed: 0.80
+
+goal_reward: 500.0
+collision_penalty: -500.0
+step_penalty: -0.05
+progress_reward_scale: 20.0
+moved_away_penalty: -0.25
+near_obstacle_penalty: -1.50
+turn_penalty: -0.05
+collision_distance: 0.30
+near_obstacle_distance: 0.60
+
+# The small-map launch file overrides these with package-relative paths.
+#results_dir: "/home/jod1979/com760_ws/src/com760cw2_group34/results/small_city"
+#q_table_path: "/home/jod1979/com760_ws/src/com760cw2_group34/results/small_city/q_table.json"
+
+results_dir: "/home/jod1979/com760_ws/src/com760cw2_group34/results/small_city"
+q_table_path: "/home/jod1979/com760_ws/src/com760cw2_group34/results/small_city/q_table.json"
+
+# Keep false for the first clean training run.
+# After the fixed route works, set true to train both directions.
+randomize_positions: false
+waypoints:
+  - {x: 8.0,  y: 0.0, yaw: 3.14159}
+  - {x: -8.0, y: 0.0, yaw: 0.0}
