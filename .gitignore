@@ -1,8 +1,5 @@
 *.pyc
 __pycache__/
-results/*.csv
-results/*.png
-results/*.json
 results/Archive/*
 build/
 devel/
