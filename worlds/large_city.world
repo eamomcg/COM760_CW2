@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-  <world name="city_delivery">
+  <world name="large_city">
 
     <!-- Better default camera angle looking at the center -->
     <gui>

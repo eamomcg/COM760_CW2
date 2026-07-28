@@ -1,66 +1,66 @@
-# Shared configuration for Workstream A and B.
-
-# ROS topics required by the coursework brief.
 cmd_vel_topic: "/group34Bot/cmd_vel"
 scan_topic: "/group34Bot/laser/scan"
 odom_topic: "/odom"
 status_topic: "/group34Bot/q_learning_status"
 reset_service: "/group34Bot/reset_episode"
 
-# Start and delivery goal.
 robot_model_name: "group34Bot"
-start_x: 15.0
+
+# Fixed curriculum stage: east side to west side.
+start_x: 8.0
 start_y: 0.0
-start_z: 0.08
-start_yaw: 0.0
-goal_x: -15.0
-goal_y: 4.0
-goal_tolerance: 2.0
+start_z: 0.01
+start_yaw: 3.14159
+goal_x: -8.0
+goal_y: 0.0
+goal_tolerance: 1.25
 
-# Q-learning parameters.
-max_episodes: 50
-max_steps_per_episode: 1300
+# 0.99 reaches approximately 0.05 after 300 episodes.
+max_episodes: 350             # Increased from 20 to allow full training
+max_steps_per_episode: 1000
 control_rate_hz: 10.0
-alpha: 0.30
-gamma: 0.90
-epsilon: 0.55
-epsilon_min: 0.05
-epsilon_decay: 0.984          # floor reached at ~episode 598, matched to max_episodes
+alpha: 0.1                    # Changed from 0.0 to enable learning (updating Q-values)
+gamma: 0.95
+epsilon: 1.0                  # Changed from 0.0 to start with 100% exploration
+epsilon_min: 0.05             # Keep a tiny bit of exploration at the end
+epsilon_decay: 0.99           # Changed from 1.0 to decay exploration over time
 
-# State encoder thresholds.
-blocked_distance: 0.60
-near_distance: 1.20
-goal_close_distance: 2.00
-goal_medium_distance: 6.0
-goal_far_distance: 12.0       # requires matching bucket added in state_encoder.py
+blocked_distance: 0.55
+near_distance: 1.10
+goal_close_distance: 0.90
+goal_medium_distance: 3.50
+goal_far_distance: 8.00
 
-# Action speeds.
-linear_speed: 1.00            # per-step travel = 1.0/10 = 0.10m
-angular_speed: 1.50
+# Slower than the full-city setting so the robot has more sensor/action
+# updates before reaching an obstacle.
+linear_speed: 0.30
+angular_speed: 0.80
 
-# Reward design.
-collision_distance: 0.30
-near_obstacle_distance: 0.55
 goal_reward: 500.0
-collision_penalty: -1200.0     # dominates worst-case accumulated progress reward (~480 max)
+collision_penalty: -500.0
 step_penalty: -0.05
-progress_reward_scale: 12.0
-moved_away_penalty: -10.0
-near_obstacle_penalty: -2.0
-turn_penalty: -0.1
+progress_reward_scale: 20.0
+moved_away_penalty: -0.25
+near_obstacle_penalty: -1.50
+turn_penalty: -0.05
+collision_distance: 0.30
+near_obstacle_distance: 0.60
 
-# File paths.
-results_dir: "/home/b00992264/com760_ws/src/com760cw2_group34/results"
-q_table_path: "/home/b00992264/com760_ws/src/com760cw2_group34/results/q_table.json"
+# The small-map launch file overrides these with package-relative paths.
+#results_dir: "/home/jod1979/com760_ws/src/com760cw2_group34/results/small_city"
+#q_table_path: "/home/jod1979/com760_ws/src/com760cw2_group34/results/small_city/q_table.json"
 
-# Randomized start/goal waypoints (must sit on road surface, clear of buildings/parked cars).
-randomize_positions: true
+# John File paths.
+#results_dir: "/home/jod1979/com760_ws/src/com760cw2_group34/results/small_city"
+#q_table_path: "/home/jod1979/com760_ws/src/com760cw2_group34/results/small_city/q_table.json"
+
+# Eamonn File paths.
+results_dir: "/home/b00992264/com760_ws/src/com760cw2_group34/results/small_city"
+q_table_path: "/home/b00992264/com760_ws/src/com760cw2_group34/results/small_city/q_table.json"
+ 
+# Keep false for the first clean training run.
+# After the fixed route works, set true to train both directions.
+randomize_positions: false
 waypoints:
-  - {x: 15.0,  y: 0.0,  yaw: 0.0}
-  - {x: -15.0, y: 4.0,  yaw: 0.0}
-  - {x: 0.0,   y: -20.0, yaw: 1.57}
-  - {x: 0.0,   y: 20.0,  yaw: -1.57}
-  - {x: -25.0, y: 0.0,  yaw: 3.14}
-  - {x: 25.0,  y: 0.0,  yaw: 3.14}
-  - {x: 0.0,   y: -35.0, yaw: 1.57}
-  - {x: 0.0,   y: 30.0,  yaw: -1.57}
+  - {x: 8.0,  y: 0.0, yaw: 3.14159}
+  - {x: -8.0, y: 0.0, yaw: 0.0}

@@ -1,22 +1,13 @@
 <launch>
-  <include file="$(find com760cw2_group34)/launch/city_delivery_world.launch" />
+  <include file="$(find com760cw2_group34)/launch/small_city_world.launch" />
 
   <rosparam command="load" file="$(find com760cw2_group34)/config/q_learning_params.yaml" />
 
   <node name="episode_resetter" pkg="com760cw2_group34" type="reset_episode.py" output="screen" />
 
-  <node name="mobile_obstacle_controller" pkg="com760cw2_group34" type="mobile_obstacle_controller.py" output="screen">
-    <param name="model_name" value="moving_pedestrian" />
-    <param name="x1" value="2.0" />
-    <param name="y1" value="-1.0" />
-    <param name="x2" value="2.0" />
-    <param name="y2" value="2.5" />
-    <param name="speed" value="0.35" />
-  </node>
-
   <node name="q_learning_delivery_node" pkg="com760cw2_group34" type="q_learning_node.py" output="screen">
     <param name="mode" value="demo" />
     <param name="epsilon" value="0.0" />
-    <param name="max_episodes" value="1" />
+    <param name="max_episodes" value="10" /> 
   </node>
 </launch>

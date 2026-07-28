@@ -321,7 +321,7 @@ class QLearningNode:
 
         if self.mode == "demo":
             rospy.loginfo("Running demo mode using trained Q-table.")
-            self.max_episodes = 1
+            
         else:
             rospy.loginfo("Running training mode for %d episodes.", self.max_episodes)
 

@@ -1,4 +1,0 @@
-<launch>
-  <include file="$(find com760cw2_group34)/launch/city_delivery_world.launch" />
-  <rosparam command="load" file="$(find com760cw2_group34)/config/q_learning_params.yaml" />
-</launch>

@@ -4,12 +4,12 @@
   <arg name="gui" default="true" />
   <arg name="headless" default="false" />
   <arg name="debug" default="false" />
-  <arg name="mobile_obstacle" default="true" />
+  <arg name="mobile_obstacle" default="false" />
 
   <param name="use_sim_time" value="$(arg use_sim_time)" />
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find com760cw2_group34)/worlds/small_city_training.world" />
+    <arg name="world_name" value="$(find com760cw2_group34)/worlds/small_city.world" />
     <arg name="paused" value="$(arg paused)" />
     <arg name="use_sim_time" value="$(arg use_sim_time)" />
     <arg name="gui" value="$(arg gui)" />
@@ -44,7 +44,7 @@
       <param name="x2" value="4.0" />
       <param name="y2" value="2.4" />
       <param name="z" value="0.50" />
-      <param name="speed" value="0.30" />
+      <param name="speed" value="0.20" />
       <param name="rate_hz" value="20.0" />
     </node>
   </group>
