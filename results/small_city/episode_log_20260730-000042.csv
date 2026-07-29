@@ -1,0 +1,11 @@
+episode,steps,total_reward,epsilon,goal_reached,collision
+1,389,-390.3212,0.0,False,True
+2,386,-376.9928,0.0,False,True
+3,762,736.8446,0.0,True,False
+4,622,760.9763,0.0,True,False
+5,691,753.6829,0.0,True,False
+6,735,750.4682,0.0,True,False
+7,795,726.1797,0.0,True,False
+8,689,753.2971,0.0,True,False
+9,709,752.4152,0.0,True,False
+10,763,725.8864,0.0,True,False

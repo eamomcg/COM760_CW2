@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""
-Generates an objective Action Advantage plot from the Q-table.
-Calculates: Q(forward) - Max(Q(turn)) per state.
-Configured for headless execution (Agg backend) and proper LaTeX rendering.
-"""
+
 
 import json
 import os

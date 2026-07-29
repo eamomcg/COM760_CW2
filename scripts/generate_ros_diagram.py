@@ -1,8 +1,4 @@
 #!/usr/init/env python3
-"""
-Generates an advanced, publication-grade ROS architecture diagram
-(ros_node_architecture.png) for the COM760 Task B IEEE report.
-"""
 
 import matplotlib
 matplotlib.use('Agg')

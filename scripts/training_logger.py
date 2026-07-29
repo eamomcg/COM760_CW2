@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-"""
-Workstream A: CSV logging for report evidence.
-"""
 
 import csv
 import os

@@ -16,7 +16,7 @@ goal_y: 0.0
 goal_tolerance: 1.25
 
 # 0.99 reaches approximately 0.05 after 300 episodes.
-max_episodes: 350             # Increased from 20 to allow full training
+max_episodes: 300             
 max_steps_per_episode: 1000
 control_rate_hz: 10.0
 alpha: 0.1                    # Changed from 0.0 to enable learning (updating Q-values)

@@ -1,16 +1,4 @@
 #!/usr/bin/env python3
-"""
-Workstream A: Q-learning controller for the city delivery robot.
-
-This node:
-- subscribes to LaserScan and Odometry
-- encodes the current state
-- selects an action using epsilon-greedy Q-learning
-- publishes Twist commands to /group34Bot/cmd_vel
-- publishes a custom QLearningStatus message
-- exposes a custom SetDeliveryGoal service
-- calls /group34Bot/reset_episode between training episodes
-"""
 
 import json
 import math

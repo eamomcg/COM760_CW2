@@ -1,13 +1,4 @@
 #!/usr/bin/env python3
-"""
-Workstream A: reward shaping for Q-learning navigation.
-
-The reward function should be simple enough to explain in the report:
-- strongly reward reaching the delivery goal
-- strongly punish collisions or unsafe closeness
-- mildly reward progress toward the goal (dense breadcrumbs)
-- mildly punish wasted steps/spinning
-"""
 
 import math
 

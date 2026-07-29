@@ -1,19 +1,4 @@
 #!/usr/bin/env python3
-"""
-converts raw ROS sensor/odometry information into a small Q-learning state.
-
-The Q-table should not use raw LaserScan arrays directly. This file reduces the
-scan to a few human-readable obstacle sectors and combines them with the goal
-angle/distance.
-
-FIX (see reward_manager.py for the matching fix): a LaserScan value that is
-NaN/Inf means "no return" -> nothing detected -> treat as clear (max_range).
-A value that is 0.0 or below the sensor's own range_min means the sensor is
-saturated at its floor -> the obstacle is at or inside the minimum measurable
-distance -> treat as VERY CLOSE (range_min), never as clear. The previous
-version collapsed both cases to max_range, which silently erased genuine
-near-collision readings.
-"""
 
 import math
 import hashlib
@@ -58,16 +43,7 @@ class StateEncoder:
         return int(digest[:8], 16) % 2147483647
 
     def _valid_range(self, value, max_range, range_min):
-        """
-        Sanitize a single LaserScan range reading.
-
-        - None / NaN / Inf  -> no return -> nothing detected -> max_range (clear)
-        - <= 0.0 or < range_min -> sensor saturated at its floor -> the
-          obstacle is AT LEAST as close as range_min -> return range_min
-          (near/contact), never max_range. This is the case that matters
-          most: it is what a real collision or near-collision looks like.
-        - otherwise -> clamp into [range_min, max_range]
-        """
+        
         if value is None:
             return max_range
         if math.isnan(value) or math.isinf(value):
@@ -122,12 +98,7 @@ class StateEncoder:
         return "goal_far"
 
     def encode(self, scan_msg, robot_x, robot_y, robot_yaw, goal_x, goal_y):
-        """
-        Return:
-            state_key: string suitable for a Q-table key
-            state_id: stable integer for logs/custom ROS message
-            info: useful numeric details for reward and debugging
-        """
+        
         sector_distances = {}
         sector_buckets = {}
 

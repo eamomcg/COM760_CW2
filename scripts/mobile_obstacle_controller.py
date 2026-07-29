@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-"""
-Workstream B: moves a simple Gazebo model back and forth to act as a dynamic obstacle.
-The world file includes a model named moving_pedestrian.
-This script moves it between two configured points using /gazebo/set_model_state.
-"""
 
 import math
 import rospy
