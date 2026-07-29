@@ -14,7 +14,6 @@ from sensor_msgs.msg import LaserScan
 from std_srvs.srv import Empty
 from tf.transformations import euler_from_quaternion
 
-# Force Python to prioritize the local script directory for imports
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 if SCRIPT_DIR not in sys.path:
     sys.path.insert(0, SCRIPT_DIR)
