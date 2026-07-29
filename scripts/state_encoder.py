@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-Workstream A: converts raw ROS sensor/odometry information into a small
-Q-learning state.
+converts raw ROS sensor/odometry information into a small Q-learning state.
 
 The Q-table should not use raw LaserScan arrays directly. This file reduces the
 scan to a few human-readable obstacle sectors and combines them with the goal

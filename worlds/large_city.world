@@ -64,7 +64,7 @@
       </link>
     </model>
 
-    <!-- Roads (Intersecting perfectly at 0,0) -->
+    <!-- Roads (Intersecting at 0,0) -->
     <road name="main_road_x">
       <width>8.0</width>
       <point>-40 0 0.015</point>
