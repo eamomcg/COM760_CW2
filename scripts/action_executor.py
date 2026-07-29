@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-"""
-Workstream A: maps a discrete Q-learning action ID to a ROS Twist command.
-"""
 
 from geometry_msgs.msg import Twist
 
