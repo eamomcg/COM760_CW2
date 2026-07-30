@@ -266,12 +266,6 @@ class QLearningNode:
                 previous_distance, next_state_info, action_id
             )
 
-            # --- GRACE PERIOD OVERRIDE ---
-            # During spawn/reset settling, the lidar or odometry can report a
-            # spurious collision. Suppress not just the collision/done flags
-            # but also the reward: reward_manager.compute() already applied
-            # the full collision_penalty before we get here, so without this
-            # the reward is still counted even though we're ignoring the event.
             if step <= grace_steps and collision:
                 reward = self.reward_manager.step_penalty
                 collision = False
